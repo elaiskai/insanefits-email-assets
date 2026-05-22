@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insane Fits — Email Marketing Auditas 2026</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Barlow', -apple-system, Helvetica, sans-serif; background: #0d0d0d; color: #e0e0e0; line-height: 1.6; }
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;900&display=swap');
+
+  .wrapper { max-width: 860px; margin: 0 auto; padding: 48px 24px 80px; }
+
+  /* HEADER */
+  .header { text-align: center; padding: 60px 0 48px; border-bottom: 1px solid #222; margin-bottom: 48px; }
+  .header .brand { font-size: 11px; font-weight: 700; letter-spacing: 4px; color: #fbcd0a; text-transform: uppercase; margin-bottom: 16px; }
+  .header h1 { font-size: 42px; font-weight: 900; color: #fff; line-height: 1.1; margin-bottom: 12px; }
+  .header h1 span { color: #fbcd0a; }
+  .header .meta { font-size: 14px; color: #666; }
+
+  /* SCORE CARD */
+  .scorecard { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 48px; }
+  .score-item { background: #111; border: 1px solid #1e1e1e; border-radius: 8px; padding: 24px 16px; text-align: center; }
+  .score-item .num { font-size: 36px; font-weight: 900; color: #fbcd0a; line-height: 1; margin-bottom: 6px; }
+  .score-item .num.red { color: #ff4d4d; }
+  .score-item .num.green { color: #4dff91; }
+  .score-item .label { font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: 1.5px; }
+
+  /* SECTION */
+  .section { margin-bottom: 48px; }
+  .section-title { font-size: 11px; font-weight: 700; letter-spacing: 3px; color: #fbcd0a; text-transform: uppercase; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #1e1e1e; }
+
+  /* FINDING CARD */
+  .finding { background: #111; border-radius: 8px; padding: 24px; margin-bottom: 12px; display: flex; gap: 20px; align-items: flex-start; border-left: 3px solid transparent; }
+  .finding.critical { border-left-color: #ff4d4d; }
+  .finding.warning { border-left-color: #ffaa00; }
+  .finding.good { border-left-color: #4dff91; }
+  .finding .badge { flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 900; }
+  .finding.critical .badge { background: rgba(255,77,77,0.15); color: #ff4d4d; }
+  .finding.warning .badge { background: rgba(255,170,0,0.15); color: #ffaa00; }
+  .finding.good .badge { background: rgba(77,255,145,0.1); color: #4dff91; }
+  .finding .content h3 { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+  .finding .content p { font-size: 14px; color: #888; line-height: 1.6; }
+  .finding .content .fix { margin-top: 10px; font-size: 13px; color: #fbcd0a; }
+  .finding .content .fix span { background: rgba(251,205,10,0.1); border-radius: 4px; padding: 2px 8px; }
+
+  /* FLOWS TABLE */
+  .flows-grid { display: grid; gap: 12px; }
+  .flow-row { background: #111; border-radius: 8px; padding: 18px 24px; display: grid; grid-template-columns: 1fr auto auto; gap: 12px; align-items: center; border-left: 3px solid #1e1e1e; }
+  .flow-row.active { border-left-color: #4dff91; }
+  .flow-row.broken { border-left-color: #ffaa00; }
+  .flow-row.missing { border-left-color: #ff4d4d; background: #0d0d0d; border: 1px dashed #2a2a2a; border-left: 3px solid #ff4d4d; }
+  .flow-row .name { font-size: 14px; font-weight: 600; color: #fff; }
+  .flow-row .desc { font-size: 12px; color: #666; margin-top: 2px; }
+  .flow-row .emails-count { font-size: 13px; color: #888; text-align: right; white-space: nowrap; }
+  .status-pill { font-size: 11px; font-weight: 700; letter-spacing: 1px; padding: 4px 10px; border-radius: 20px; text-transform: uppercase; white-space: nowrap; }
+  .pill-active { background: rgba(77,255,145,0.1); color: #4dff91; }
+  .pill-broken { background: rgba(255,170,0,0.1); color: #ffaa00; }
+  .pill-missing { background: rgba(255,77,77,0.1); color: #ff4d4d; }
+  .pill-disabled { background: rgba(100,100,100,0.1); color: #555; }
+
+  /* CAMPAIGNS */
+  .camps-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .camp-item { background: #111; border-radius: 8px; padding: 16px 20px; }
+  .camp-item .camp-name { font-size: 13px; font-weight: 600; color: #fff; margin-bottom: 4px; }
+  .camp-item .camp-subject { font-size: 12px; color: #888; font-style: italic; }
+  .camp-item .camp-date { font-size: 11px; color: #555; margin-top: 6px; }
+
+  /* PRIORITY PLAN */
+  .plan-item { background: #111; border-radius: 8px; padding: 20px 24px; margin-bottom: 12px; display: flex; gap: 20px; }
+  .plan-num { width: 36px; height: 36px; border-radius: 50%; background: #fbcd0a; color: #000; font-size: 16px; font-weight: 900; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .plan-content h3 { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+  .plan-content p { font-size: 13px; color: #888; }
+  .plan-content .impact { font-size: 11px; font-weight: 700; color: #fbcd0a; letter-spacing: 1px; text-transform: uppercase; margin-top: 6px; }
+
+  /* SEGMENTATION BAR */
+  .seg-bar { background: #111; border-radius: 8px; padding: 28px; margin-bottom: 12px; }
+  .seg-bar h3 { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 16px; }
+  .bar-track { background: #1e1e1e; border-radius: 4px; height: 8px; margin-bottom: 8px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 4px; }
+  .bar-label { display: flex; justify-content: space-between; font-size: 12px; color: #666; margin-bottom: 16px; }
+
+  /* FOOTER */
+  .footer { text-align: center; padding-top: 48px; border-top: 1px solid #1e1e1e; margin-top: 60px; }
+  .footer p { font-size: 12px; color: #444; }
+  .footer strong { color: #fbcd0a; }
+
+  @media (max-width: 600px) {
+    .scorecard { grid-template-columns: repeat(2, 1fr); }
+    .camps-grid { grid-template-columns: 1fr; }
+    .flow-row { grid-template-columns: 1fr; }
+    .header h1 { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="brand">eLaiškai Agency · Klientas: Insane Fits</div>
+    <h1>Email Marketing<br><span>Auditas 2026</span></h1>
+    <div class="meta">Gegužė 2026 &nbsp;·&nbsp; Omnisend &nbsp;·&nbsp; Duomenys: API realaus laiko</div>
+  </div>
+
+  <!-- SCORE CARD -->
+  <div class="scorecard">
+    <div class="score-item">
+      <div class="num">50+</div>
+      <div class="label">Kampanijos<br>istorijoje</div>
+    </div>
+    <div class="score-item">
+      <div class="num red">1</div>
+      <div class="label">Aktyvus<br>segmentas</div>
+    </div>
+    <div class="score-item">
+      <div class="num">5</div>
+      <div class="label">Automation<br>flow'ai</div>
+    </div>
+    <div class="score-item">
+      <div class="num red">0%</div>
+      <div class="label">Kampanijų<br>segmentacija</div>
+    </div>
+  </div>
+
+  <!-- KRITINIAI RASTI -->
+  <div class="section">
+    <div class="section-title">Kritiniai radiniai</div>
+
+    <div class="finding critical">
+      <div class="badge">!</div>
+      <div class="content">
+        <h3>Nulinė kampanijų segmentacija</h3>
+        <p>Visos 50+ kampanijų buvo išsiųstos visam sąrašui be jokio segmentavimo. Engaged, lapsed, VIP pirkėjai — visi gauna tą patį laišką. Tai lemia didesni bounce rate, spam complaints ir ilgainiui prastesnį pristatymą visiems.</p>
+        <div class="fix"><span>Sprendimas: sukurti 7 bazinius segmentus ir kiekvienai kampanijai siųsti tik Engaged 30d ar Aktyvūs</span></div>
+      </div>
+    </div>
+
+    <div class="finding critical">
+      <div class="badge">!</div>
+      <div class="content">
+        <h3>Welcome flow — tik 1 laiškas, A/B testas sugedęs</h3>
+        <p>Aktyvus welcome flow turi tik 1 laišką su kodu. A/B testas sukonfigūruotas taip, kad A variantas niekam neišsiunčiamas (aBlocksPercentage = 0%). Po pirmojo laiško nauji prenumeratoriai nebegauna jokio follow-up — nei brand story, nei urgency.</p>
+        <div class="fix"><span>Sprendimas: pridėti Welcome #2 (brand story, 24h) ir Welcome #3 (urgency + kodas, 72h)</span></div>
+      </div>
+    </div>
+
+    <div class="finding critical">
+      <div class="badge">!</div>
+      <div class="content">
+        <h3>Nėra Browse Abandon flow</h3>
+        <p>Potencialūs pirkėjai, kurie naršo produktus ir išeina be pirkimo, negauna jokio priminimo. Tai vienas geriausiai konvertuojančių automation tipų sporto papildų kategorijoje.</p>
+        <div class="fix"><span>Sprendimas: 2 laiškų Browse Abandon serija (1h + 24h po peržiūros)</span></div>
+      </div>
+    </div>
+
+    <div class="finding critical">
+      <div class="badge">!</div>
+      <div class="content">
+        <h3>Nėra Post-purchase Review flow</h3>
+        <p>Po užsakymo pristatymo klientas negauna jokio laiško. Atsiliepimų rinkimas automatiškai didina social proof, pakartotinius pirkimus ir pagerina SEO.</p>
+        <div class="fix"><span>Sprendimas: 1 review laiškas 7 dienos po pristatymo</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIDUTINIAI -->
+  <div class="section">
+    <div class="section-title">Kiti pastebėjimai</div>
+
+    <div class="finding warning">
+      <div class="badge">~</div>
+      <div class="content">
+        <h3>Black Friday flow vis dar aktyvus</h3>
+        <p>"Custom Workflow No.4" su preheader tekstu "Black Friday" yra įjungtas ir triggerinamas per specifinę formą. Jei ta forma nerodoma svetainėje — nekenksmingas, bet tvarka reikalauja išjungti.</p>
+        <div class="fix"><span>Sprendimas: išjungti šį flow arba atnaujinti turinį</span></div>
+      </div>
+    </div>
+
+    <div class="finding warning">
+      <div class="badge">~</div>
+      <div class="content">
+        <h3>Customer Reactivation — reikia patikrinti delay'us</h3>
+        <p>Flow'as triggerinamas "placed order" evente su copy "Mes pasigedome tavęs". Tai win-back stilius, bet trigger yra iš karto po pirkimo. Reikia patikrinti UI ar delay'ai yra 30-60 dienų.</p>
+        <div class="fix"><span>Patikrinti: Omnisend UI → Customer Reactivation → delay settings</span></div>
+      </div>
+    </div>
+
+    <div class="finding warning">
+      <div class="badge">~</div>
+      <div class="content">
+        <h3>Discount fatigue rizika</h3>
+        <p>Apie 60% visų kampanijų yra nuolaidų pagrindo (-12% iki -30%). Pastaraisiais mėnesiais atsiranda edukacinių kampanijų (longevity, baltymai, sleep) — tai teigiamas ženklas. Reikia tęsti šią kryptį.</p>
+        <div class="fix"><span>Rekomenduojamas mišinys: 50% nuolaidos · 30% edukacinės · 20% produktų launch'ai</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KAS GERAI -->
+  <div class="section">
+    <div class="section-title">Kas jau veikia gerai</div>
+    <div class="finding good">
+      <div class="badge">✓</div>
+      <div class="content">
+        <h3>Abandoned Cart + Checkout flows</h3>
+        <p>3 laiškų serija su eskaluojančia urgency ir 10% kodu paskutiniame laiške. Teisingas formatas — galima tik pagerinti copy ir dizainą.</p>
+      </div>
+    </div>
+    <div class="finding good">
+      <div class="badge">✓</div>
+      <div class="content">
+        <h3>Reguliari siuntimo rutina</h3>
+        <p>2+ kampanijos per savaitę, aktyviai siųsta nuo 2024. Siuntėjas "Lukas | Insane Fits" — asmeninis vardas pagerina open rate. lt_LT kalba nustatyta.</p>
+      </div>
+    </div>
+    <div class="finding good">
+      <div class="badge">✓</div>
+      <div class="content">
+        <h3>Subject line kokybė gerėja</h3>
+        <p>Senesnės kampanijos naudojo ALL CAPS. Naujesnės — curiosity/benefit led subject lines ("Kas stabdo tavo progresą?", "Kreatinas, kurį išperka akimirksniu😱"). Šią kryptį reikia tęsti.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- AUTOMATION FLOWS -->
+  <div class="section">
+    <div class="section-title">Automation flows — dabartinė būklė</div>
+    <div class="flows-grid">
+
+      <div class="flow-row broken">
+        <div>
+          <div class="name">Welcome Series</div>
+          <div class="desc">Trigger: pirmas prisijungimas per signup form</div>
+        </div>
+        <div class="emails-count">1 / 3 laiškų</div>
+        <div class="status-pill pill-broken">Nepilnas</div>
+      </div>
+
+      <div class="flow-row active">
+        <div>
+          <div class="name">Abandoned Cart (Cart trigger)</div>
+          <div class="desc">Trigger: pridėjo į krepšelį → 3 laiškų serija</div>
+        </div>
+        <div class="emails-count">3 laiškų</div>
+        <div class="status-pill pill-active">Aktyvus</div>
+      </div>
+
+      <div class="flow-row broken">
+        <div>
+          <div class="name">Abandoned Checkout (A/B sugedęs)</div>
+          <div class="desc">Trigger: pradėjo checkout → A variantas niekam nesiunčiamas</div>
+        </div>
+        <div class="emails-count">3 laiškų</div>
+        <div class="status-pill pill-broken">A/B klaida</div>
+      </div>
+
+      <div class="flow-row broken">
+        <div>
+          <div class="name">Customer Reactivation</div>
+          <div class="desc">Trigger: placed order — delay'ai nepatikrinti</div>
+        </div>
+        <div class="emails-count">3 laiškų</div>
+        <div class="status-pill pill-broken">Patikrinti</div>
+      </div>
+
+      <div class="flow-row missing">
+        <div>
+          <div class="name">Browse Abandon — TRŪKSTA</div>
+          <div class="desc">Peržiūrėjo produktą 2× be pirkimo</div>
+        </div>
+        <div class="emails-count">0 / 2 laiškų</div>
+        <div class="status-pill pill-missing">Nėra</div>
+      </div>
+
+      <div class="flow-row missing">
+        <div>
+          <div class="name">Post-purchase Review — TRŪKSTA</div>
+          <div class="desc">7 dienos po pristatymo</div>
+        </div>
+        <div class="emails-count">0 / 1 laiško</div>
+        <div class="status-pill pill-missing">Nėra</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SEGMENTACIJA -->
+  <div class="section">
+    <div class="section-title">Segmentacija</div>
+    <div class="seg-bar">
+      <h3>Kampanijų siuntimo patikimumas</h3>
+      <div class="bar-label"><span>Engaged only (rekomenduojama)</span><span>0%</span></div>
+      <div class="bar-track"><div class="bar-fill" style="background:#fbcd0a;width:0%"></div></div>
+      <div class="bar-label"><span>Visi aktyvūs prenumeratoriai</span><span>100%</span></div>
+      <div class="bar-track"><div class="bar-fill" style="background:#ff4d4d;width:100%"></div></div>
+      <p style="font-size:13px;color:#666;margin-top:16px">Dabar egzistuoja tik 1 segmentas: "Recent buyers (1day)" — naudojamas tik kaip exclude filtras. Nėra jokio pozityvaus targetavimo.</p>
+    </div>
+
+    <div style="background:#111;border-radius:8px;padding:24px">
+      <div style="font-size:14px;font-weight:700;color:#fff;margin-bottom:16px">Rekomenduojami segmentai (kurti iš naujo)</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+        <div style="background:#0d0d0d;border-radius:6px;padding:12px 16px">
+          <div style="font-size:13px;font-weight:600;color:#fbcd0a">Engaged 30d</div>
+          <div style="font-size:12px;color:#666;margin-top:2px">Atidare arba paspaudė per 30d</div>
+        </div>
+        <div style="background:#0d0d0d;border-radius:6px;padding:12px 16px">
+          <div style="font-size:13px;font-weight:600;color:#fbcd0a">Lapsed 90d</div>
+          <div style="font-size:12px;color:#666;margin-top:2px">Jokios reakcijos per 90d</div>
+        </div>
+        <div style="background:#0d0d0d;border-radius:6px;padding:12px 16px">
+          <div style="font-size:13px;font-weight:600;color:#fbcd0a">VIP pirkėjai</div>
+          <div style="font-size:12px;color:#666;margin-top:2px">3+ užsakymai arba &gt;€150</div>
+        </div>
+        <div style="background:#0d0d0d;border-radius:6px;padding:12px 16px">
+          <div style="font-size:13px;font-weight:600;color:#fbcd0a">Pirkėjai</div>
+          <div style="font-size:12px;color:#666;margin-top:2px">Bent 1 užsakymas</div>
+        </div>
+        <div style="background:#0d0d0d;border-radius:6px;padding:12px 16px">
+          <div style="font-size:13px;font-weight:600;color:#fbcd0a">Nauji (0-30d)</div>
+          <div style="font-size:12px;color:#666;margin-top:2px">Prisijungė per 30d, nepirko</div>
+        </div>
+        <div style="background:#0d0d0d;border-radius:6px;padding:12px 16px">
+          <div style="font-size:13px;font-weight:600;color:#fbcd0a">Ne-atidarytojai</div>
+          <div style="font-size:12px;color:#666;margin-top:2px">Neatidare paskutinių 3 laiškų</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PASKUTINES KAMPANIJOS -->
+  <div class="section">
+    <div class="section-title">Paskutinės 10 kampanijų</div>
+    <div class="camps-grid">
+      <div class="camp-item">
+        <div class="camp-name">-18% nuolaida viskam</div>
+        <div class="camp-subject">"Dėmesio: -18% nuolaida visiems produktams šiandien"</div>
+        <div class="camp-date">2026-05-21 · Visi sąraše</div>
+      </div>
+      <div class="camp-item">
+        <div class="camp-name">-20% off deal</div>
+        <div class="camp-subject">"Kas stabdo tavo progresą?"</div>
+        <div class="camp-date">2026-05-05 · Visi sąraše</div>
+      </div>
+      <div class="camp-item">
+        <div class="camp-name">Protein skonių papildymas (+ booster)</div>
+        <div class="camp-subject">"Įspėjame! Šiuos skonius greitai išperka👀"</div>
+        <div class="camp-date">2026-04-26 / 04-29</div>
+      </div>
+      <div class="camp-item">
+        <div class="camp-name">-25% nuolaida viskam (+ booster)</div>
+        <div class="camp-subject">"Ačiū už palaikymą | -25% VISKAM🤩"</div>
+        <div class="camp-date">2026-04-18 / 04-21</div>
+      </div>
+      <div class="camp-item">
+        <div class="camp-name">Creatine Chews</div>
+        <div class="camp-subject">"Kreatinas, kurį išperka akimirksniu😱"</div>
+        <div class="camp-date">2026-04-08</div>
+      </div>
+      <div class="camp-item">
+        <div class="camp-name">Pre-Workout launch</div>
+        <div class="camp-subject">"Tavo treniruotės gali būti dar stipresnės⚡"</div>
+        <div class="camp-date">2026-03</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRIORITETINIS PLANAS -->
+  <div class="section">
+    <div class="section-title">Ką darome toliau — prioritetais</div>
+
+    <div class="plan-item">
+      <div class="plan-num">1</div>
+      <div class="plan-content">
+        <h3>Sukurti 7 segmentus</h3>
+        <p>Engaged 30d · Lapsed 90d · VIP · Pirkėjai · Nauji · Ne-atidarytojai · Visi aktyvūs. Nuo šiol visos kampanijos siunčiamos tik Engaged arba specifiniam segmentui.</p>
+        <div class="impact">Poveikis: +deliverability · -unsubscribes · +relevance</div>
+      </div>
+    </div>
+
+    <div class="plan-item">
+      <div class="plan-num">2</div>
+      <div class="plan-content">
+        <h3>Welcome serija: pridėti #2 ir #3</h3>
+        <p>#2 po 24h — Lukas brand story + top 3 produktai. #3 po 72h — urgency + kodas baigiasi. Ištaisyti A/B testą (50/50 arba išjungti).</p>
+        <div class="impact">Poveikis: +konversija iš naujų prenumeratorių</div>
+      </div>
+    </div>
+
+    <div class="plan-item">
+      <div class="plan-num">3</div>
+      <div class="plan-content">
+        <h3>Browse Abandon flow (2 laiškai)</h3>
+        <p>Naršė produktą 2×, nepirko → 1h laiškas (priminimas) → 24h laiškas (social proof + bestsellers). Sporto papildų kategorijoje tai ypač efektyvu — sprendimo priėmimas ilgesnis.</p>
+        <div class="impact">Poveikis: +papildomos konversijos iš naršytojų</div>
+      </div>
+    </div>
+
+    <div class="plan-item">
+      <div class="plan-num">4</div>
+      <div class="plan-content">
+        <h3>Post-purchase Review (1 laiškas)</h3>
+        <p>7 dienos po pristatymo — Lukas asmeniškai prašo atsiliepimo. Didina Judge.me reitingą, gerina konversiją iš naujų lankytojų.</p>
+        <div class="impact">Poveikis: +atsiliepimų kiekis · +pakartotiniai pirkimai</div>
+      </div>
+    </div>
+
+    <div class="plan-item">
+      <div class="plan-num">5</div>
+      <div class="plan-content">
+        <h3>Kampanijų mišinio balansavimas</h3>
+        <p>Nuo šiol: 50% nuolaidų · 30% edukacinių (baltymai, sleep, longevity) · 20% produktų launch'ai. Siųsti tik Engaged 30d segmentui — ne visiems.</p>
+        <div class="impact">Poveikis: -discount fatigue · +brand authority · +ilgalaikis sąrašo sveikata</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>Paruošė <strong>eLaiškai</strong> · <strong>elaiskai.lt</strong> · Gegužė 2026</p>
+    <p style="margin-top:6px;font-size:11px;color:#333">Duomenys surinkti per Omnisend API realaus laiko. Kampanijų OR/CTR metrika — patikrinti Omnisend UI Reports.</p>
+  </div>
+
+</div>
+</body>
+</html>
