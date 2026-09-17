@@ -1,0 +1,439 @@
+{
+  "sha256": "13df64f2ef854b39bf1fcc36ea8263a09e8e4bb9d99159e3ba2c738550b8de6e",
+  "results": [
+    {
+      "width": 600,
+      "stripped": false,
+      "file": "qa/600.png",
+      "issues": [],
+      "buttons": [
+        {
+          "text": "Peržiūrėti vitaminą D",
+          "height": 56,
+          "width": 552,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Pasirinkti kiekį",
+          "height": 56,
+          "width": 518,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Peržiūrėti komplektą",
+          "height": 56,
+          "width": 552,
+          "href": "https://insanefits.com/products/insane-komplektas-imunitetui"
+        }
+      ],
+      "scrollWidth": 600,
+      "images": [
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        },
+        {
+          "src": "assets/vitamin-d-hero-v2.jpg",
+          "ratio": 1,
+          "displayRatio": 1
+        },
+        {
+          "src": "assets/vitamin-d-benefits-v1.jpg",
+          "ratio": 0.8002853067047075,
+          "displayRatio": 0.8
+        },
+        {
+          "src": "assets/bundle-still-life-v2.jpg",
+          "ratio": 1.5,
+          "displayRatio": 1.5
+        },
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        }
+      ]
+    },
+    {
+      "width": 600,
+      "stripped": true,
+      "file": "qa/600-stripped.png",
+      "issues": [],
+      "buttons": [
+        {
+          "text": "Peržiūrėti vitaminą D",
+          "height": 56,
+          "width": 552,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Pasirinkti kiekį",
+          "height": 56,
+          "width": 518,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Peržiūrėti komplektą",
+          "height": 56,
+          "width": 552,
+          "href": "https://insanefits.com/products/insane-komplektas-imunitetui"
+        }
+      ],
+      "scrollWidth": 600,
+      "images": [
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        },
+        {
+          "src": "assets/vitamin-d-hero-v2.jpg",
+          "ratio": 1,
+          "displayRatio": 1
+        },
+        {
+          "src": "assets/vitamin-d-benefits-v1.jpg",
+          "ratio": 0.8002853067047075,
+          "displayRatio": 0.8
+        },
+        {
+          "src": "assets/bundle-still-life-v2.jpg",
+          "ratio": 1.5,
+          "displayRatio": 1.5
+        },
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "stripped": false,
+      "file": "qa/320.png",
+      "issues": [],
+      "buttons": [
+        {
+          "text": "Peržiūrėti vitaminą D",
+          "height": 56,
+          "width": 272,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Pasirinkti kiekį",
+          "height": 56,
+          "width": 238,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Peržiūrėti komplektą",
+          "height": 56,
+          "width": 272,
+          "href": "https://insanefits.com/products/insane-komplektas-imunitetui"
+        }
+      ],
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        },
+        {
+          "src": "assets/vitamin-d-hero-v2.jpg",
+          "ratio": 1,
+          "displayRatio": 1
+        },
+        {
+          "src": "assets/vitamin-d-benefits-v1.jpg",
+          "ratio": 0.8002853067047075,
+          "displayRatio": 0.8
+        },
+        {
+          "src": "assets/bundle-still-life-v2.jpg",
+          "ratio": 1.5,
+          "displayRatio": 1.5027624309392265
+        },
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "stripped": true,
+      "file": "qa/320-stripped.png",
+      "issues": [],
+      "buttons": [
+        {
+          "text": "Peržiūrėti vitaminą D",
+          "height": 56,
+          "width": 272,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Pasirinkti kiekį",
+          "height": 56,
+          "width": 238,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Peržiūrėti komplektą",
+          "height": 56,
+          "width": 272,
+          "href": "https://insanefits.com/products/insane-komplektas-imunitetui"
+        }
+      ],
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        },
+        {
+          "src": "assets/vitamin-d-hero-v2.jpg",
+          "ratio": 1,
+          "displayRatio": 1
+        },
+        {
+          "src": "assets/vitamin-d-benefits-v1.jpg",
+          "ratio": 0.8002853067047075,
+          "displayRatio": 0.8
+        },
+        {
+          "src": "assets/bundle-still-life-v2.jpg",
+          "ratio": 1.5,
+          "displayRatio": 1.5027624309392265
+        },
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "stripped": false,
+      "file": "qa/390.png",
+      "issues": [],
+      "buttons": [
+        {
+          "text": "Peržiūrėti vitaminą D",
+          "height": 56,
+          "width": 342,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Pasirinkti kiekį",
+          "height": 56,
+          "width": 308,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Peržiūrėti komplektą",
+          "height": 56,
+          "width": 342,
+          "href": "https://insanefits.com/products/insane-komplektas-imunitetui"
+        }
+      ],
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        },
+        {
+          "src": "assets/vitamin-d-hero-v2.jpg",
+          "ratio": 1,
+          "displayRatio": 1
+        },
+        {
+          "src": "assets/vitamin-d-benefits-v1.jpg",
+          "ratio": 0.8002853067047075,
+          "displayRatio": 0.8008213552361396
+        },
+        {
+          "src": "assets/bundle-still-life-v2.jpg",
+          "ratio": 1.5,
+          "displayRatio": 1.5
+        },
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "stripped": true,
+      "file": "qa/390-stripped.png",
+      "issues": [],
+      "buttons": [
+        {
+          "text": "Peržiūrėti vitaminą D",
+          "height": 56,
+          "width": 342,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Pasirinkti kiekį",
+          "height": 56,
+          "width": 308,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Peržiūrėti komplektą",
+          "height": 56,
+          "width": 342,
+          "href": "https://insanefits.com/products/insane-komplektas-imunitetui"
+        }
+      ],
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        },
+        {
+          "src": "assets/vitamin-d-hero-v2.jpg",
+          "ratio": 1,
+          "displayRatio": 1
+        },
+        {
+          "src": "assets/vitamin-d-benefits-v1.jpg",
+          "ratio": 0.8002853067047075,
+          "displayRatio": 0.8008213552361396
+        },
+        {
+          "src": "assets/bundle-still-life-v2.jpg",
+          "ratio": 1.5,
+          "displayRatio": 1.5
+        },
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "stripped": false,
+      "file": "qa/430.png",
+      "issues": [],
+      "buttons": [
+        {
+          "text": "Peržiūrėti vitaminą D",
+          "height": 56,
+          "width": 382,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Pasirinkti kiekį",
+          "height": 56,
+          "width": 348,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Peržiūrėti komplektą",
+          "height": 56,
+          "width": 382,
+          "href": "https://insanefits.com/products/insane-komplektas-imunitetui"
+        }
+      ],
+      "scrollWidth": 430,
+      "images": [
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        },
+        {
+          "src": "assets/vitamin-d-hero-v2.jpg",
+          "ratio": 1,
+          "displayRatio": 1
+        },
+        {
+          "src": "assets/vitamin-d-benefits-v1.jpg",
+          "ratio": 0.8002853067047075,
+          "displayRatio": 0.8007448789571695
+        },
+        {
+          "src": "assets/bundle-still-life-v2.jpg",
+          "ratio": 1.5,
+          "displayRatio": 1.4980392156862745
+        },
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "stripped": true,
+      "file": "qa/430-stripped.png",
+      "issues": [],
+      "buttons": [
+        {
+          "text": "Peržiūrėti vitaminą D",
+          "height": 56,
+          "width": 382,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Pasirinkti kiekį",
+          "height": 56,
+          "width": 348,
+          "href": "https://insanefits.com/products/insane-vitamin-d"
+        },
+        {
+          "text": "Peržiūrėti komplektą",
+          "height": 56,
+          "width": 382,
+          "href": "https://insanefits.com/products/insane-komplektas-imunitetui"
+        }
+      ],
+      "scrollWidth": 430,
+      "images": [
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        },
+        {
+          "src": "assets/vitamin-d-hero-v2.jpg",
+          "ratio": 1,
+          "displayRatio": 1
+        },
+        {
+          "src": "assets/vitamin-d-benefits-v1.jpg",
+          "ratio": 0.8002853067047075,
+          "displayRatio": 0.8007448789571695
+        },
+        {
+          "src": "assets/bundle-still-life-v2.jpg",
+          "ratio": 1.5,
+          "displayRatio": 1.4980392156862745
+        },
+        {
+          "src": "assets/logo.png",
+          "ratio": 6,
+          "displayRatio": 6
+        }
+      ]
+    }
+  ],
+  "pass": true,
+  "realEmailClientVerified": false
+}
