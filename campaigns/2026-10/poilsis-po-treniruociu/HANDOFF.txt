@@ -1,0 +1,36 @@
+POILSIS PO TRENIRUOČIŲ
+2026-10-01. Dizainas paruoštas GitHub publikavimui, laiškas neišsiųstas. HTML paveikslėlių nuorodos absoliučios HTTPS.
+Subject: Treniruotė baigėsi. O poilsis?
+Preheader: Miegas, magnis ir paprasti įpročiai po treniruotės. Magnis su B6 už 16,92 €.
+
+Produktai tikrinti tiesioginiais Shopify .js atsakymais 2026-10-01:
+https://insanefits.com/products/magnis
+Prieinamas, 16,92 €, palyginamoji kaina 19,90 €, 120 kapsulių.
+https://insanefits.com/products/protein-isolate
+Prieinamas, 107,10 €, palyginamoji kaina 126 €, 2,5 kg. Galimi Chocolate, Vanilla, Snikers, Iced Mocha Magic.
+Deep Sleep ir komplektas miegui neprieinami, todėl jų nereklamuojame.
+Abi produkto nuorodos grąžina HTTP 200. CTA su UTM žymomis veda į atitinkamus produktus, ne bendrą kategoriją.
+
+Teiginiai:
+https://eur-lex.europa.eu/eli/reg/2012/432/oj/eng
+Magnio raumenų funkcijos, magnio ir B6 nervų sistemos bei nuovargio, baltymų raumenų masės palaikymo ir augimo teiginiai. Nežadamas nemigos gydymas ar garantuotas atsistatymas.
+https://www.nhs.uk/every-mind-matters/mental-health-issues/sleep/
+Reguliarus ritmas, mažiau kofeino vakare ir telefono prieš miegą.
+
+Dizainas: brand-dna pritaikymas, #EF5C2E CTA, #161616 fonas, šiltas neutralus #F5F1EB. Montserrat pagal ankstesnį kliento pasirinkimą, Arial fallback. Visa kritinė kopija ir CTA yra HTML, ne paveikslėliuose. Brūkšnių kopijoje nėra.
+
+Vizualai sukurti built-in image_gen, remiantis tikromis produkto pakuotėmis. Šaltiniai assets/magnis-original.jpg ir assets/protein-original.jpg iš oficialaus Shopify CDN. Originalūs sugeneruoti PNG ir sumažinti JPG išsaugoti assets aplanke. Logotipas iš ankstesnio patvirtinto Insane Labs laiško.
+
+Generation brief / prompt set:
+Hero: cinematic premium ecommerce photograph, landscape 3:2. Preserve authentic Insane Labs Magnesium Bisglycinate + B6 white bottle, logo and label. Bottle fills 65 percent of height slightly right of centre on dark charcoal stone bedside shelf, folded black athletic towel left foreground, smoked glass of water further left. Warm orange upper-left sunset light #EF5C2E, near black #161616 environment, believable shadows, readable label. Quiet architectural evening setting. Full product in frame. No people, capsules, floating objects, promotional copy or invented claims.
+Supporting photograph: premium horizontal 3:2 editorial photograph. Preserve actual black Chocolate InsaneFits Protein Isolate 2.5kg tub from reference. Remove surrounding advertising text, stars and flavour graphics. Product left-centre, small clear glass of chocolate protein drink right, warm off-white #F5F1EB stone counter. Soft late afternoon upper-left light with #EF5C2E highlight, natural shadows, eye-level camera. No added text, claims or floating objects.
+
+QA current published version: HTML SHA256 0f98826c41e8ae2aee545401163cedcfaf864a74e623d8c6cb31b682b81f59f4.
+Po HTTPS nuorodų pakeitimo iš naujo sugeneruotos ir vizualiai peržiūrėtos visos 8 peržiūros, 600/320/390/430 px, su ir be head stilių. Tekstas įskaitomas, išdėstymas ir nuotraukos nepažeisti, CTA 56px, horizontal overflow nėra. Prieš įkėlimą viešos nuotraukų užklausos QA metu nukreiptos į tuos pačius vietinius failus.
+V3 supersedes dark v2 below: restored warm ivory content sections and sleep card, dark seamless hero retained, closing section stays light. 80px table-based transition from charcoal to ivory. Protein image edited with built-in image_gen and saved as assets/protein-v3.png and .jpg. Prompt: preserve bottle, label and drink from original light photograph, keep warm sunny lighting, top and bottom 12 percent softly fade into #F5F1EB, no new copy or objects. All 8 fresh previews visually reviewed for current hash: readable, unclipped, natural images, matching CTA associations; CTA 56px, no horizontal overflow, no copy dashes. No real email-client test or publishing performed.
+Fresh 600, 320, 390, 430 px previews, plus each with head styles and font links removed. All eight visually inspected. Readable text, intact words and products, natural image proportions, aligned spacing, no empty columns, photo and matching CTA stay together. CTA heights 54 or 56 px. No horizontal overflow or broken images. Automated record qa.json.
+This is browser QA, not verified Gmail, Outlook, dark mode or Omnisend delivery.
+V2: unified #161616 canvas, cream panels removed, sleep section unboxed. Both photos edited with built-in image_gen to fade naturally toward charcoal at upper/lower edges. Product, copy, prices and links unchanged. Assets hero-v2.png/jpg and protein-v2.png/jpg retain editable originals. Fresh eight previews visually inspected again, no clipping, natural photo proportions and text widths, all CTA now 56px. Previous QA paragraph heights are superseded by v2 and current qa.json.
+V2 prompt set: Hero, preserve exact bottle, label and composition, top and bottom 12 percent dissolve smoothly into #161616 across full width, warm orange light confined inside scene, no added copy. Protein, preserve bottle and glass, change cream surroundings to dark charcoal stone, warm upper-left orange light, remove kitchen clutter, top and bottom fade to #161616, no added text. Both landscape 3:2.
+
+Before sending: confirm current prices and stock; map [[unsubscribe_link]] in Omnisend and send a real platform test. No automation, account settings, or sending changed. Only final consumed JPG assets and logo are included in publication; earlier generated variants remain local.

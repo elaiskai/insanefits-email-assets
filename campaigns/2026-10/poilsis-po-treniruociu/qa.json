@@ -1,0 +1,101 @@
+{
+  "sha256": "0f98826c41e8ae2aee545401163cedcfaf864a74e623d8c6cb31b682b81f59f4",
+  "results": [
+    {
+      "name": "600",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "dashes": false
+    },
+    {
+      "name": "600-stripped",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "dashes": false
+    },
+    {
+      "name": "320",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "dashes": false
+    },
+    {
+      "name": "320-stripped",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "dashes": false
+    },
+    {
+      "name": "390",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "dashes": false
+    },
+    {
+      "name": "390-stripped",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "dashes": false
+    },
+    {
+      "name": "430",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "dashes": false
+    },
+    {
+      "name": "430-stripped",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "dashes": false
+    }
+  ]
+}
