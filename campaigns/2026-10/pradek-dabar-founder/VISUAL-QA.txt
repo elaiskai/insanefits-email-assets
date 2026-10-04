@@ -1,4 +1,5 @@
-HTML SHA256: 1cc35fcc2850290bf6d9163690b7df02ba4975d1d03ddaa642ba35f377142e97
+HTML SHA256: 8ea9bd79d26487fc115cc0330ace4a3a7dbc705baf79fb8df4184cc1e6f0836c
+Latest update: landscape photo below logo and above greeting, removed bottom photo. All eight current renders visually inspected, natural 3:2 proportions and fluid width, no text collisions. Photo is imagegen-assisted reframe of supplied original, not an untouched crop.
 Update: official current Insane Labs logo added above greeting, 150 px wide, 30 px gap. Inspected fresh desktop and all mobile/stripped renders. Logo proportions and contrast correct on white background. Logo served from official Shopify CDN, local backup insane-labs-logo.png included.
 Reviewed fresh renders: 600, 320, 390, 430 px, each with original head and stripped head styles/font links.
 PASS: readable text widths, natural wrapping, aligned padding, clear CTA with 51 or 78 px clickable height. No horizontal overflow or customer-facing dashes. Portrait beneath signature loads correctly, preserves its natural proportions, fits every viewport. Discount number and percent sign stay together.
