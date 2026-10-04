@@ -1,0 +1,77 @@
+{
+  "sha256": "cd654f236d58a8626d46cff3d9204af09f757f6978e48832e9cefc2ed225312a",
+  "results": [
+    {
+      "name": "600",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        51
+      ],
+      "dashes": false
+    },
+    {
+      "name": "600-stripped",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        51
+      ],
+      "dashes": false
+    },
+    {
+      "name": "320",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        78
+      ],
+      "dashes": false
+    },
+    {
+      "name": "320-stripped",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        78
+      ],
+      "dashes": false
+    },
+    {
+      "name": "390",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        51
+      ],
+      "dashes": false
+    },
+    {
+      "name": "390-stripped",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        51
+      ],
+      "dashes": false
+    },
+    {
+      "name": "430",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        51
+      ],
+      "dashes": false
+    },
+    {
+      "name": "430-stripped",
+      "overflow": false,
+      "images": true,
+      "cta": [
+        51
+      ],
+      "dashes": false
+    }
+  ]
+}

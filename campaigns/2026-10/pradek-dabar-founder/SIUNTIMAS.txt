@@ -1,0 +1,11 @@
+Tema: O jeigu šįkart nelauktum sausio?
+Preheader: Iki Naujųjų liko 89 dienos. Pradžiai jų tikrai užtenka.
+Siuntėjas: Lukas iš InsaneFits
+
+Importuoti newsletter.html į Omnisend. Nuotrauka lukas.jpg jau talpinama GitHub ir susieta absoliučiu viešu adresu. Papildomai jos įkelti nereikia.
+Nuotrauka iš kliento pateikto Drive, Foto be apsvietimo-34.jpg. Eksportas sumažintas iki 660 px ilgosios kraštinės, be kūrybinių pakeitimų. Originalas saugomas lokaliai.
+89 dienos teisinga 2026 m. spalio 4 d. Siunčiant vėliau skaičių tekste ir preheader atnaujinti.
+15 % nuolaida visiems produktams yra kliento nurodytas pasiūlymas, prieš siuntimą patikrinti jo aktyvumą ir taikymo apimtį.
+Pasirinkti patvirtintą siuntėjo adresą. Atsisakymo žyma: [[unsubscribe_link]].
+Patikrintos šviežios 600, 320, 390, 430 px naršyklės peržiūros su originaliais ir pašalintais head stiliais. Rezultatai qa.json ir VISUAL-QA.txt.
+Prieš siuntimą būtinas Omnisend testas, įskaitant nuotrauką, CTA ir atsisakymo nuorodą. Tai nėra patvirtintas Gmail ar Omnisend pristatymo testas.

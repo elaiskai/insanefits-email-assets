@@ -1,0 +1,5 @@
+HTML SHA256: cd654f236d58a8626d46cff3d9204af09f757f6978e48832e9cefc2ed225312a
+Reviewed fresh renders: 600, 320, 390, 430 px, each with original head and stripped head styles/font links.
+PASS: readable text widths, natural wrapping, aligned padding, clear CTA with 51 or 78 px clickable height. No horizontal overflow or customer-facing dashes. Portrait beneath signature loads correctly, preserves its natural proportions, fits every viewport. Discount number and percent sign stay together.
+Automated results: qa.json, same HTML hash.
+Browser preview only. Actual Omnisend import, personalization, unsubscribe resolution and email-client delivery remain unverified. Send a platform test before launch.
