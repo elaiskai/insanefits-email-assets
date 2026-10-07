@@ -1,0 +1,67 @@
+[
+ {
+  "type": "automation",
+  "id": "6a212aec5e898a73f9a36e49",
+  "name": "Product Reviews",
+  "status": 204,
+  "body": ""
+ },
+ {
+  "type": "automation",
+  "id": "6abcd88b2c2ab323fbfa0710",
+  "name": "[IF] Nupirko proteina -> receptu knyga",
+  "status": 204,
+  "body": ""
+ },
+ {
+  "type": "automation",
+  "id": "66d585db069079e2f07b3424",
+  "name": "Customer Reactivation",
+  "status": 204,
+  "body": ""
+ },
+ {
+  "type": "automation",
+  "id": "6a2137f38305508380599481",
+  "name": "Abandoned Cart Trigger",
+  "status": 204,
+  "body": ""
+ },
+ {
+  "type": "automation",
+  "id": "6a212c84de553f01826b7d26",
+  "name": "Product Abandonment Engagement Split",
+  "status": 204,
+  "body": ""
+ },
+ {
+  "type": "automation",
+  "id": "64e86ff13f32f55d16ae2d3d",
+  "name": "Abandoned Checkout Trigger",
+  "status": 204,
+  "body": ""
+ },
+ {
+  "type": "automation",
+  "id": "6a20877a8ac35d6deb9dc574",
+  "name": "[IF] Welcome serija (eLaiskai 2026-06)",
+  "status": 204,
+  "body": ""
+ },
+ {
+  "type": "form",
+  "id": "6a2139701a67df459ff5b39c",
+  "name": "10% Popup MOBILE",
+  "disable": 204,
+  "delete": 204,
+  "body": " | "
+ },
+ {
+  "type": "form",
+  "id": "6a21394afb74517726d259a2",
+  "name": "10% Popup DESKTOP",
+  "disable": 204,
+  "delete": 204,
+  "body": " | "
+ }
+]
