@@ -1,0 +1,434 @@
+{
+ "id": "655c94707ab1d99c6c532a44",
+ "name": "Branded Email capture",
+ "status": "enabled",
+ "content": {
+  "generalSettings": {
+   "content": {
+    "width": "600px",
+    "color": "#212121"
+   },
+   "body": {
+    "backgroundColor": "#383838",
+    "borderRadius": "0px",
+    "borderWidth": "0px",
+    "borderStyle": "solid",
+    "borderColor": ""
+   },
+   "link": {
+    "color": "#00A3FF"
+   },
+   "buttonPresets": [
+    {
+     "id": "primary_button",
+     "name": "Primary button",
+     "styles": {
+      "backgroundColor": "#00A3FF",
+      "borderRadius": "0px",
+      "borderWidth": "2px",
+      "borderStyle": "solid",
+      "borderColor": "#00A3FF",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "16px",
+      "color": "#FFFFFF",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "16px",
+      "paddingBottom": "16px"
+     }
+    },
+    {
+     "id": "secondary_button",
+     "name": "Secondary button",
+     "styles": {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": "0px",
+      "borderWidth": "2px",
+      "borderStyle": "solid",
+      "borderColor": "#000000",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "16px",
+      "color": "#000000",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "16px",
+      "paddingBottom": "16px"
+     }
+    },
+    {
+     "id": "tertiary_button",
+     "name": "Tertiary button",
+     "styles": {
+      "backgroundColor": "#000000",
+      "borderRadius": "0px",
+      "borderWidth": "2px",
+      "borderStyle": "solid",
+      "borderColor": "#FFFFFF",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "16px",
+      "color": "#FFFFFF",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "16px",
+      "paddingBottom": "16px"
+     }
+    }
+   ],
+   "textPresets": [
+    {
+     "id": "heading_large",
+     "name": "Heading Large",
+     "styles": {
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "60px",
+      "color": "#000000",
+      "lineHeight": "100%"
+     }
+    },
+    {
+     "id": "heading_medium",
+     "name": "Heading Medium",
+     "styles": {
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "36px",
+      "color": "#000000",
+      "lineHeight": "125%"
+     }
+    },
+    {
+     "id": "heading_small",
+     "name": "Heading Small",
+     "styles": {
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "30px",
+      "color": "#000000",
+      "lineHeight": "125%"
+     }
+    },
+    {
+     "id": "paragraph",
+     "name": "Paragraph",
+     "styles": {
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "16px",
+      "color": "#000000",
+      "lineHeight": "125%"
+     }
+    },
+    {
+     "id": "footnote",
+     "name": "Footnote",
+     "styles": {
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "12px",
+      "color": "#000000",
+      "lineHeight": "150%"
+     }
+    }
+   ],
+   "closeButton": {
+    "color": "#000000",
+    "backgroundColor": ""
+   },
+   "fieldStyles": {
+    "fontFamily": "Arial, sans-serif",
+    "fontSize": "14px",
+    "fontStyle": "",
+    "textDecoration": "",
+    "errorColor": "#FF0000",
+    "label": {
+     "color": "#000000",
+     "paddingLeft": "0px",
+     "paddingRight": "0px",
+     "paddingTop": "12px",
+     "paddingBottom": "12px"
+    },
+    "placeholder": {
+     "color": "#000000"
+    },
+    "field": {
+     "color": "#000000",
+     "backgroundColor": "",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px",
+     "borderRadius": "8px",
+     "borderStyle": "solid",
+     "borderColor": "#000000",
+     "borderWidth": "2px"
+    }
+   },
+   "position": "middleCenter"
+  },
+  "steps": [
+   {
+    "sections": [
+     {
+      "id": "624ab2f927652f651edfd0ac",
+      "rows": [
+       {
+        "id": "624ab2f927652f651edfd0ad",
+        "columns": [
+         {
+          "id": "624ab2f927652f651edfd0ae",
+          "width": "100%",
+          "blocks": [
+           {
+            "id": "624ab2f927652f651edfd0b0",
+            "type": "text",
+            "text": "<h2><strong>DON&#39;T MISS OUT</strong></h2>",
+            "styleProperties": {
+             "paddingLeft": "12px",
+             "paddingRight": "12px",
+             "paddingTop": "12px",
+             "paddingBottom": "12px"
+            },
+            "stylePresetId": "heading_medium"
+           },
+           {
+            "id": "62a871d4e7d3697ece98c87e",
+            "type": "text",
+            "text": "<p>Subscribe to get exclusive deals sent directly to your inbox.</p>",
+            "styleProperties": {
+             "paddingLeft": "12px",
+             "paddingRight": "12px",
+             "paddingTop": "12px",
+             "paddingBottom": "12px"
+            },
+            "stylePresetId": "paragraph"
+           },
+           {
+            "id": "62a34db0f7b3732a01429b16",
+            "type": "emailField",
+            "emailField": {
+             "placeholder": "Enter your email",
+             "isRequired": true,
+             "requiredMessage": "This field is required",
+             "errorMessage": "The email address must contain @ and a valid domain",
+             "label": ""
+            },
+            "styleProperties": {
+             "paddingLeft": "12px",
+             "paddingRight": "12px",
+             "paddingTop": "12px",
+             "paddingBottom": "12px"
+            }
+           },
+           {
+            "id": "627932485028ebd8c6660c51",
+            "type": "button",
+            "button": {
+             "type": "submit",
+             "text": "SUBSCRIBE",
+             "link": "",
+             "isFullWidth": true
+            },
+            "styleProperties": {
+             "paddingLeft": "12px",
+             "paddingRight": "12px",
+             "paddingTop": "12px",
+             "paddingBottom": "12px"
+            },
+            "stylePresetId": "primary_button"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "styleProperties": {
+       "paddingLeft": "20px",
+       "paddingRight": "20px",
+       "paddingTop": "20px",
+       "paddingBottom": "40px",
+       "opacity": 1
+      }
+     }
+    ]
+   }
+  ],
+  "successStep": {
+   "sections": [
+    {
+     "id": "62a3492df7b3732a01429af7",
+     "rows": [
+      {
+       "id": "62a3492df7b3732a01429af8",
+       "columns": [
+        {
+         "id": "62a3492df7b3732a01429af9",
+         "width": "100%",
+         "blocks": [
+          {
+           "id": "62a3492df7b3732a01429af5",
+           "type": "text",
+           "text": "<h1><strong>You&#39;re all signed up!</strong></h1>",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           },
+           "stylePresetId": "heading_large"
+          },
+          {
+           "id": "6328497fe3f9bca2e8014f78",
+           "type": "text",
+           "text": "<p>You&#39;ll start to receive discounts by email and phone.</p>",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           },
+           "stylePresetId": "paragraph"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "styleProperties": {
+      "paddingLeft": "24px",
+      "paddingRight": "24px",
+      "paddingTop": "24px",
+      "paddingBottom": "24px",
+      "opacity": 1
+     }
+    }
+   ]
+  },
+  "subscribedStep": {
+   "sections": [
+    {
+     "id": "6334361f157261686a766272",
+     "rows": [
+      {
+       "id": "6334361f157261686a766273",
+       "columns": [
+        {
+         "id": "6334361f157261686a766274",
+         "width": "100%",
+         "blocks": [
+          {
+           "id": "6334361f157261686a766271",
+           "type": "text",
+           "text": "<h2><strong>You are already subscribed</strong></h2>",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           },
+           "stylePresetId": "heading_medium"
+          }
+         ],
+         "styleProperties": {}
+        }
+       ]
+      }
+     ],
+     "styleProperties": {
+      "paddingLeft": "24px",
+      "paddingRight": "24px",
+      "paddingTop": "24px",
+      "paddingBottom": "24px",
+      "opacity": 1
+     }
+    }
+   ]
+  },
+  "teaser": {
+   "isEnabled": true,
+   "text": "GET OUR EXCLUSIVE DEALS",
+   "visibility": "always",
+   "styleProperties": {
+    "fontFamily": "Arial, sans-serif",
+    "fontSize": "16px",
+    "paddingLeft": "16px",
+    "paddingRight": "16px",
+    "paddingTop": "12px",
+    "paddingBottom": "12px",
+    "color": "#000000",
+    "backgroundColor": "",
+    "borderRadius": "0px",
+    "border": "2px solid ",
+    "shape": "rectangle",
+    "desktopStyle": {
+     "marginLeft": "32px",
+     "marginRight": "32px",
+     "marginTop": "32px",
+     "marginBottom": "32px"
+    },
+    "mobileStyle": {
+     "marginLeft": "8px",
+     "marginRight": "8px",
+     "marginTop": "8px",
+     "marginBottom": "8px"
+    }
+   },
+   "position": "bottomLeft",
+   "closeButton": {
+    "isEnabled": false
+   }
+  }
+ },
+ "targeting": {
+  "source": {
+   "excludes": [
+    "omnisendCommunication"
+   ]
+  }
+ },
+ "displayType": "embedded",
+ "doubleOptIn": {
+  "isEnabled": false,
+  "email": {
+   "subject": "Please confirm your subscription",
+   "sendersName": "Insanefits",
+   "headline": "Confirm your subscription",
+   "content": "If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above.",
+   "confirmationButton": "Confirm subscription"
+  },
+  "confirmationPage": {
+   "title": "Subscription confirmed!",
+   "content": "Your subscription has been confirmed. Thank you for subscribing!",
+   "isButtonVisible": false,
+   "buttonText": "Continue to our website",
+   "isAutoRedirectEnabled": false,
+   "autoRedirectText": "Redirecting to our website in...",
+   "url": "http://insanefits.com"
+  },
+  "confirmationRedirect": {
+   "isEnabled": false,
+   "url": "http://insanefits.com"
+  }
+ },
+ "createdAt": "2023-11-21T11:28:48.201Z",
+ "launchedAt": "2023-11-21T11:28:48.201Z",
+ "enabledAt": "2023-11-21T11:28:48.201Z",
+ "updatedAt": "2023-11-21T11:28:48.201Z",
+ "socialMediaSharing": {
+  "title": "Sign up to get our offer",
+  "description": "Subscribe to our newsletter and be the first to get the news, exclusive discounts, best offers and more!"
+ },
+ "autoRedirect": {
+  "isEnabled": false,
+  "url": "http://insanefits.com",
+  "shouldOpenInNewTab": false
+ },
+ "contactTags": [
+  "form_subscriber",
+  "embedded_branded"
+ ]
+}

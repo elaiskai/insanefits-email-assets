@@ -1,0 +1,229 @@
+{
+ "id": "6a20877b95f266088730f06a",
+ "generalSettings": {
+  "content": {
+   "backgroundColor": "#FFFFFF",
+   "width": "600px",
+   "fontFamily": "Arial, sans-serif",
+   "fontSize": "16px",
+   "color": "#212121"
+  },
+  "logo": {
+   "id": "66d499e2bbdc54a93b70a4e5",
+   "source": "/image/newsletter/66d499e2bbdc54a93b70a4e5",
+   "width": 550,
+   "height": 120,
+   "isCustom": true
+  },
+  "body": {
+   "backgroundColor": "#FFFFFF"
+  },
+  "buttonPresets": [
+   {
+    "id": "primary_button",
+    "name": "Primary button",
+    "styles": {
+     "backgroundColor": "#6014F9",
+     "border": "0px solid #FFFFFF",
+     "borderRadius": "8px",
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "16px",
+     "color": "#FFFFFF",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   },
+   {
+    "id": "secondary_button",
+    "name": "Secondary button",
+    "styles": {
+     "border": "2px solid #383838",
+     "borderRadius": "0px",
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "16px",
+     "color": "#383838",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   },
+   {
+    "id": "tertiary_button",
+    "name": "Tertiary button",
+    "styles": {
+     "border": "2px solid #efefef",
+     "borderRadius": "0px",
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "16px",
+     "color": "#383838",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   }
+  ],
+  "textPresets": [
+   {
+    "id": "heading_large",
+    "name": "Heading Large",
+    "styles": {
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "36px",
+     "color": "#000000",
+     "lineHeight": "1.25"
+    }
+   },
+   {
+    "id": "heading_medium",
+    "name": "Heading Medium",
+    "styles": {
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "30px",
+     "color": "#000000",
+     "lineHeight": "1.25"
+    }
+   },
+   {
+    "id": "heading_small",
+    "name": "Heading Small",
+    "styles": {
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "24px",
+     "color": "#000000",
+     "lineHeight": "1.25"
+    }
+   },
+   {
+    "id": "paragraph",
+    "name": "Paragraph",
+    "styles": {
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "14px",
+     "color": "#000000",
+     "lineHeight": "1.5"
+    }
+   },
+   {
+    "id": "footnote",
+    "name": "Footnote",
+    "styles": {
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "12px",
+     "color": "#000000",
+     "lineHeight": "1.5"
+    }
+   }
+  ],
+  "gmail": {
+   "annotation": {
+    "isEnabled": false,
+    "discountDescription": ""
+   }
+  }
+ },
+ "sections": [
+  {
+   "id": "cb1f375b59e34a99ae2c7e74",
+   "visibility": {
+    "isMobileVisible": true,
+    "isDesktopVisible": true
+   },
+   "rows": [
+    {
+     "id": "fd9f6480080d40019bb63f67",
+     "columns": [
+      {
+       "id": "959f607298cf4718aefa01e9",
+       "width": "600px",
+       "blocks": [
+        {
+         "id": "6a2089f638e25f6c229665c4",
+         "type": "htmlCode",
+         "htmlCode": {
+          "style": "p { text-align: center; }",
+          "body": ""
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "paddingTop": "0px",
+    "paddingBottom": "0px",
+    "backgroundColor": "#FFFFFF"
+   }
+  },
+  {
+   "id": "6a208ab07a6f277aaa4e5920",
+   "visibility": {
+    "isMobileVisible": true,
+    "isDesktopVisible": true
+   },
+   "rows": [
+    {
+     "id": "6a208ab07a6f277aaa4e5921",
+     "columns": [
+      {
+       "id": "6a208ab07a6f277aaa4e5922",
+       "width": "600px",
+       "blocks": [
+        {
+         "id": "6a268e528607952dde09b8ea",
+         "type": "logo",
+         "logo": {
+          "link": "[[account.website]]",
+          "resizeWidth": 165
+         },
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "12px",
+          "paddingBottom": "12px",
+          "alignment": "center"
+         }
+        },
+        {
+         "id": "6a208ac511cfc4ceb51ecf3a",
+         "type": "htmlCode",
+         "htmlCode": {
+          "style": "p { text-align: center; }",
+          "body": "\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background-color:#ffffff;\">\n<tr><td align=\"center\" style=\"padding:0;\">\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"width:100%;max-width:600px;margin:0 auto;background-color:#ffffff;font-family:&#39;Barlow&#39;,Arial,Helvetica,sans-serif;\">\n\n  \n\n  \n  <tr><td style=\"padding:44px 36px 0 24px;\">\n    <h1 style=\"margin:0;color:#1a1a1a;font-size:32px;line-height:1.12;font-weight:800;letter-spacing:-0.02em;\">\n      Kodėl visa tai pradėjau?\n    </h1>\n  </td></tr>\n\n \n  <tr><td align=\"left\" style=\"padding:22px 36px 0 24px;text-align:left;\">\n    <h2 style=\"margin:0 0 10px 0;color:#1a1a1a;font-size:19px;font-weight:800;text-align:left;\">Nuo sporto salės iki bendruomenės</h2>\n    <p style=\"margin:0;color:#4a4a4a;font-size:16px;line-height:1.65;font-weight:500;text-align:left;\">\n      2021 metais įkūriau Insane Fits, nes kaip bodybuilderis pats mačiau, kaip sunku rasti papildus, kuriais gali pasitikėti be abejonių. Rinkoje pastebėjau daug gražių pažadų, bet man visada trūko aiškumo, kokybės ir realios vertės sportuojančiam žmogui. Norėjau sukurti papildus, kurie padėtų siekti geresnių rezultatų, savijautos ir ilgaamžiškumo, o ne tik gražiai atrodytų lentynoje. Taip Insane Fits išaugo į 15,000+ žmonių bendruomenę, kuri renkasi progresą sąmoningai.\n    </p>\n  </td></tr>\n\n \n  <tr><td style=\"padding:26px 36px 0 24px;\">\n    <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background-color:#f6f6f4;border-radius:14px;\">\n      <tr><td align=\"left\" style=\"padding:24px 26px;text-align:left;\">\n        <h2 style=\"margin:0 0 10px 0;color:#1a1a1a;font-size:19px;font-weight:800;text-align:left;\">Kokybė be kompromisų</h2>\n        <p style=\"margin:0;color:#4a4a4a;font-size:16px;line-height:1.65;font-weight:500;text-align:left;\">\n          Man kokybė nėra marketingo frazė - tai pagrindas, nuo kurio prasideda pasitikėjimas. Visi Insane Fits papildai yra laboratoriškai tikrinami, kad žinotum, ką dedi į savo kūną. Kadangi pats esu bodybuilderis, kokybei nedarau kompromisų.\n        </p>\n      </td></tr>\n    </table>\n  </td></tr>\n\n  \n  <tr><td style=\"padding:30px 36px 0 24px;\">\n    <div style=\"height:3px;width:56px;background-color:#fbcd0a;border-radius:2px;\"></div>\n  </td></tr>\n\n  \n<tr><td align=\"left\" style=\"padding:22px 36px 0 24px;text-align:left;\">\n    <h2 style=\"margin:0;color:#1a1a1a;font-size:22px;font-weight:800;text-align:left;\">Nuo ko pradėti</h2>\n    <p style=\"margin:12px 0 0 0;color:#4a4a4a;font-size:16px;line-height:1.65;font-weight:500;text-align:left;\">\n      Jei nori pradėti paprastai ir protingai, rekomenduoju susidėti bazę iš kelių patikrintų sprendimų. Tai produktai, kuriuos verta turėti, kai tavo tikslas yra progresas, energija ir atsistatymas.\n    </p>\n  </td></tr>\n\n  \n <tr><td style=\"padding:20px 36px 0 24px;\">\n    \n    <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background-color:#f6f6f4;border-radius:12px;margin-bottom:14px;\">\n      <tr>\n        <td width=\"130\" valign=\"middle\" style=\"padding:14px;\">\n          <img src=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@main/products/insane-kreatinas-tri.jpg\" width=\"110\" alt=\"Pure Creatine\" style=\"display:block;width:110px;height:auto;border:0;border-radius:8px;\">\n        </td>\n        <td valign=\"middle\" style=\"padding:14px 16px 14px 0;\">\n          <p style=\"margin:0;color:#1a1a1a;font-size:17px;font-weight:800;\">Pure Creatine</p>\n          <p style=\"margin:6px 0 0 0;color:#5a5a5a;font-size:14px;line-height:1.5;font-weight:500;\">Pure Creatine turi 3000 mg kreatino monohidrato, kuris padeda didinti pajėgumą ir jėgą treniruotėse.</p>\n          <table role=\"presentation\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"margin:10px auto 0 auto;\">\n            <tr>\n              <td align=\"center\" style=\"background-color:#F77F00;border-radius:8px;\">\n                <a href=\"https://insanefits.com/products/insane-kreatinas-tri-creatine-malate\" target=\"_blank\" style=\"display:inline-block;padding:9px 14px;color:#ffffff;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;\">Žiūrėti produktą</a>\n              </td>\n            </tr>\n          </table>\n        </td>\n      </tr>\n    </table>\n    \n    <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background-color:#f6f6f4;border-radius:12px;margin-bottom:14px;\">\n      <tr>\n        <td width=\"130\" valign=\"middle\" style=\"padding:14px;\">\n          <img src=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@main/products/protein-isolate.jpg\" width=\"110\" alt=\"Protein Isolate\" style=\"display:block;width:110px;height:auto;border:0;border-radius:8px;\">\n        </td>\n        <td valign=\"middle\" style=\"padding:14px 16px 14px 0;\">\n          <p style=\"margin:0;color:#1a1a1a;font-size:17px;font-weight:800;\">Protein Isolate</p>\n          <p style=\"margin:6px 0 0 0;color:#5a5a5a;font-size:14px;line-height:1.5;font-weight:500;\">Protein Isolate - baltymai raumenims su šokolado-kokoso skoniu, patogu po treniruotės ar kai trūksta baltymų dienoje.</p>\n          <table role=\"presentation\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"margin:10px auto 0 auto;\">\n            <tr>\n              <td align=\"center\" style=\"background-color:#F77F00;border-radius:8px;\">\n                <a href=\"https://insanefits.com/products/protein-isolate\" target=\"_blank\" style=\"display:inline-block;padding:9px 14px;color:#ffffff;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;\">Žiūrėti produktą</a>\n              </td>\n            </tr>\n          </table>\n        </td>\n      </tr>\n    </table>\n    \n    <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background-color:#f6f6f4;border-radius:12px;\">\n      <tr>\n        <td width=\"130\" valign=\"middle\" style=\"padding:14px;\">\n          <img src=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@main/products/insane-fuel.jpg\" width=\"110\" alt=\"Insane Fuel\" style=\"display:block;width:110px;height:auto;border:0;border-radius:8px;\">\n        </td>\n        <td valign=\"middle\" style=\"padding:14px 16px 14px 0;\">\n          <p style=\"margin:0;color:#1a1a1a;font-size:17px;font-weight:800;\">Insane Fuel</p>\n          <p style=\"margin:6px 0 0 0;color:#5a5a5a;font-size:14px;line-height:1.5;font-weight:500;\">Insane Fuel - intra-workout formulė ištvermei, atsistatymui, pump, hidratacijai ir fokusui treniruotės metu.</p>\n          <table role=\"presentation\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"margin:10px auto 0 auto;\">\n            <tr>\n              <td align=\"center\" style=\"background-color:#F77F00;border-radius:8px;\">\n                <a href=\"https://insanefits.com/products/insane-fuel\" target=\"_blank\" style=\"display:inline-block;padding:9px 14px;color:#ffffff;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;\">Žiūrėti produktą</a>\n              </td>\n            </tr>\n          </table>\n        </td>\n      </tr>\n    </table>\n  </td></tr>\n\n  \n  <tr><td style=\"padding:26px 36px 0 24px;\">\n    <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background-color:#fbf8ec;border:2px dashed #fbcd0a;border-radius:14px;\">\n      <tr><td style=\"padding:22px 24px;\">\n        <h2 style=\"margin:0 0 8px 0;color:#1a1a1a;font-size:18px;font-weight:800;\">Dovana tavo mitybai 🎁</h2>\n        <p style=\"margin:0;color:#4a4a4a;font-size:15px;line-height:1.6;font-weight:500;\">\n          Prie starto pridėjau sveikų ir skanių receptų el. knygą kaip dovaną, kad mityba būtų paprastesnė. Noriu, kad tavo maistas ne tik derėtų prie tikslų, bet ir būtų skanus kasdien.\n        </p>\n      </td></tr>\n    </table>\n  </td></tr>\n\n  \n   <tr><td style=\"padding:24px 36px 0 24px;\">\n    \n    <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width:100%;\">\n      <tr><td align=\"center\" bgcolor=\"#F77F00\" style=\"border-radius:8px;\">\n        <a href=\"https://insanefits.com/en\" target=\"_blank\" style=\"display:block;padding:18px 0;font-family:&#39;Barlow&#39;,Arial,sans-serif;font-size:17px;font-weight:800;color:#ffffff;text-decoration:none;text-transform:uppercase;letter-spacing:0.04em;border-radius:8px;text-align:center;\">\n          Apsilankyti parduotuvėje\n        </a>\n      </td></tr>\n    </table>\n    \n    <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width:100%;margin-top:12px;\">\n      <tr><td align=\"center\" bgcolor=\"#ffffff\" style=\"border-radius:8px;border:2px solid #F77F00;\">\n        <a href=\"https://drive.google.com/file/d/1V4oLT4pVninoWt_BXfLvew9RoG_hqymn/view\" target=\"_blank\" style=\"display:block;padding:16px 0;font-family:&#39;Barlow&#39;,Arial,sans-serif;font-size:17px;font-weight:800;color:#F77F00;text-decoration:none;text-transform:uppercase;letter-spacing:0.04em;border-radius:8px;text-align:center;\">\n          📖 Atsisiųsk receptų knygą\n        </a>\n      </td></tr>\n    </table>\n  </td></tr>\n  \n  <tr><td style=\"padding:34px 36px 44px 24px;\">\n    <p style=\"margin:0;color:#1a1a1a;font-size:16px;font-weight:700;\">- Insanefits Komanda</p>\n  </td></tr>\n\n</table>\n</td></tr>\n</table>\n"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "paddingTop": "12px",
+    "paddingBottom": "12px",
+    "backgroundColor": "#FFFFFF",
+    "backgroundSize": "cover",
+    "backgroundRepeat": "no-repeat",
+    "backgroundPosition": "unset"
+   }
+  },
+  {
+   "id": "60a2848e82afed275df5da7d",
+   "type": "universal_layout",
+   "settings": {
+    "backgroundType": "",
+    "universalLayoutID": "66d58b11a1c34cc1e20738a0"
+   },
+   "rows": null
+  }
+ ],
+ "createdAt": "2026-06-03T07:34:01.735Z",
+ "updatedAt": "2026-10-01T12:31:21.643Z"
+}

@@ -1,0 +1,84 @@
+{
+ "id": "6abcd88b2c2ab323fbfa0710",
+ "brandID": "5fb8f11d99f0b7071afb51ba",
+ "name": "[IF] Nupirko proteiną -> receptų knyga",
+ "isEnabled": true,
+ "trigger": {
+  "condition": {
+   "event": "ordered product",
+   "origin": "shopify",
+   "filterGroups": [
+    {
+     "logicalOperator": "or",
+     "filters": [
+      {
+       "field": "raw.product_id",
+       "operator": "eq",
+       "value": 10925956137306
+      },
+      {
+       "field": "raw.product_id",
+       "operator": "eq",
+       "value": 7445645590694
+      },
+      {
+       "field": "raw.product_id",
+       "operator": "eq",
+       "value": 10131589595482
+      },
+      {
+       "field": "raw.product_id",
+       "operator": "eq",
+       "value": 9710890615130
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blocks": [
+  {
+   "id": "7a5bebd4-002c-4c31-96a4-44c107d237af",
+   "type": "delay",
+   "delay": {
+    "mode": "immediate"
+   }
+  },
+  {
+   "id": "2da5102f-b240-426c-859b-5f856cdff970",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "6abce5ec2ca956b0c3a0f76f",
+     "subject": "Ačiū už užsakymą. Tavo dovana viduje",
+     "preheader": "Dovana tau, mano ir mano žmonos Paulinos receptų knyga.",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Insanefits",
+     "language": "lt_LT",
+     "isSkipAllowed": true
+    }
+   }
+  }
+ ],
+ "exitConditions": [
+  {
+   "event": "order refunded",
+   "origin": "shopify"
+  }
+ ],
+ "settings": {
+  "frequencyLimiter": {
+   "mode": "once"
+  },
+  "sendingThresholds": {
+   "email": "nonSubscribed",
+   "sms": "subscribed"
+  }
+ },
+ "createdAt": "2026-09-30T09:38:19.895Z",
+ "updatedAt": "2026-09-30T11:10:46.34Z",
+ "enabledAt": "2026-09-30T11:10:46.312Z",
+ "disabledAt": "2026-09-30T10:52:37.102Z",
+ "url": "https://app.omnisend.com/automation/edit/6abcd88b2c2ab323fbfa0710"
+}

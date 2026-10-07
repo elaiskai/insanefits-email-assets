@@ -1,0 +1,124 @@
+{
+ "id": "6a20877a8ac35d6deb9dc574",
+ "brandID": "5fb8f11d99f0b7071afb51ba",
+ "name": "[IF] Welcome serija (eLaiškai 2026-06)",
+ "isEnabled": true,
+ "trigger": {
+  "condition": {
+   "event": "subscribed to marketing",
+   "origin": "",
+   "filterGroups": [
+    {
+     "logicalOperator": "and",
+     "filters": [
+      {
+       "field": "channel_subscribed_to",
+       "operator": "eq",
+       "value": "Email"
+      },
+      {
+       "field": "first_subscription",
+       "operator": "eq",
+       "value": true
+      },
+      {
+       "field": "subscription_method",
+       "operator": "eq",
+       "value": "Signup form"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blocks": [
+  {
+   "id": "5d7fd50f-2fbd-416a-98b2-e04b17656b57",
+   "type": "delay",
+   "delay": {
+    "mode": "immediate"
+   }
+  },
+  {
+   "id": "b336e84b-0824-45c7-bb3c-addcc2186d49",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "6a20877ba91bd1ff51d8648d",
+     "subject": "Sveikas prisijungęs prie Insane Fits 💪",
+     "preheader": "Džiaugiuosi, kad nuo šiandien esi su mumis.",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Lukas | Insane Fits",
+     "language": "lt_LT",
+     "isSkipAllowed": true
+    }
+   }
+  },
+  {
+   "id": "4121da26-bf04-4fd2-9fd4-5f1d769fc8cb",
+   "type": "delay",
+   "delay": {
+    "mode": "duration",
+    "duration": {
+     "units": "h",
+     "amount": 24
+    }
+   }
+  },
+  {
+   "id": "f101cf80-4532-4966-b265-a031ab77f80e",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "6a20877b95f266088730f06a",
+     "subject": "Mano istorija ir pradžia 💪",
+     "preheader": "Sužinok, kodėl sukūriau Insane Fits ir nuo ko rekomenduoju pradėti.",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Lukas | Insane Fits",
+     "language": "lt_LT",
+     "isSkipAllowed": true
+    }
+   }
+  },
+  {
+   "id": "0835683a-15dd-49aa-988c-b59938675da3",
+   "type": "delay",
+   "delay": {
+    "mode": "duration",
+    "duration": {
+     "units": "h",
+     "amount": 72
+    }
+   }
+  },
+  {
+   "id": "689b38a6-bcf7-473d-9ce4-0f1c57618e14",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "6a20877bcb78a537748f0748",
+     "subject": "Dar spėji pradėti stipriau 💪",
+     "preheader": "Paskutinis laiškas serijoje - kodėl Insane Fits verta pasitikėjimo.",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Lukas | Insane Fits",
+     "language": "lt_LT",
+     "isSkipAllowed": true
+    }
+   }
+  }
+ ],
+ "exitConditions": [],
+ "settings": {
+  "sendingThresholds": {
+   "email": "subscribed",
+   "sms": "subscribed"
+  }
+ },
+ "createdAt": "2026-06-03T19:58:50.88Z",
+ "updatedAt": "2026-06-11T09:20:32.482Z",
+ "enabledAt": "2026-06-11T09:20:32.482Z",
+ "url": "https://app.omnisend.com/automation/edit/6a20877a8ac35d6deb9dc574"
+}

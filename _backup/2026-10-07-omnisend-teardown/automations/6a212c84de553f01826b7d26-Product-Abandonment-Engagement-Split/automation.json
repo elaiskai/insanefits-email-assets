@@ -1,0 +1,209 @@
+{
+ "id": "6a212c84de553f01826b7d26",
+ "brandID": "5fb8f11d99f0b7071afb51ba",
+ "name": "Product Abandonment Engagement Split",
+ "isEnabled": true,
+ "trigger": {
+  "condition": {
+   "event": "viewed product",
+   "origin": "shopify",
+   "filterGroups": [
+    {
+     "logicalOperator": "and",
+     "filters": [
+      {
+       "field": "product.status",
+       "operator": "eq",
+       "value": "inStock"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blocks": [
+  {
+   "id": "b9601a47-6bc5-4620-8a6e-0821042491d7",
+   "type": "abTesting",
+   "abTesting": {
+    "aBlocks": [
+     {
+      "id": "3b91c887-163b-4f46-8cac-9a259b8d11c5",
+      "type": "delay",
+      "delay": {
+       "mode": "duration",
+       "duration": {
+        "units": "h",
+        "amount": 2
+       }
+      }
+     },
+     {
+      "id": "508d8bd8-15be-49f5-a94d-96ae1a2fd2ae",
+      "type": "action",
+      "action": {
+       "type": "sendEmail",
+       "sendEmail": {
+        "contentID": "6aa7cefd59b9744474835855",
+        "subject": "Palikai papildą nepatikrintą 💪",
+        "preheader": "Tavo peržiūrėta prekė vis dar laukia.",
+        "senderEmail": "hello@insanefits.com",
+        "senderName": "Insanefits",
+        "language": "lt_LT",
+        "isSkipAllowed": true
+       }
+      }
+     },
+     {
+      "id": "d3b0799e-88a4-45c0-a6bc-aee8614d8809",
+      "type": "delay",
+      "delay": {
+       "mode": "duration",
+       "duration": {
+        "units": "h",
+        "amount": 1
+       }
+      }
+     },
+     {
+      "id": "e1a2276d-488e-46d3-9ff2-7f161fd364f8",
+      "type": "split",
+      "split": {
+       "filterGroup": {
+        "logicalOperator": "and",
+        "filters": [
+         {
+          "type": "message",
+          "field": "blockID",
+          "operator": "openedEmail",
+          "value": "508d8bd8-15be-49f5-a94d-96ae1a2fd2ae"
+         }
+        ]
+       },
+       "trueBlocks": null,
+       "falseBlocks": [
+        {
+         "id": "a48d34a4-0aee-4736-8654-1e20906091e6",
+         "type": "action",
+         "action": {
+          "type": "sendEmail",
+          "sendEmail": {
+           "contentID": "6aa7cefd4b3b27d0e7a80b62",
+           "subject": "Gal tai tavo kitas favoritas? 👀",
+           "preheader": "Užmesk akį į prekę ir klientų topus.",
+           "senderEmail": "hello@insanefits.com",
+           "senderName": "Insanefits",
+           "language": "lt_LT",
+           "isSkipAllowed": true
+          }
+         }
+        }
+       ]
+      }
+     }
+    ],
+    "bBlocks": [
+     {
+      "id": "c82dd41e-4af3-401f-a22b-a6102252e5fe",
+      "type": "delay",
+      "delay": {
+       "mode": "duration",
+       "duration": {
+        "units": "m",
+        "amount": 30
+       }
+      }
+     },
+     {
+      "id": "c514079a-251d-4877-9777-a5477cbce930",
+      "type": "action",
+      "action": {
+       "type": "sendEmail",
+       "sendEmail": {
+        "contentID": "6aa7cefd4b3b27d0e7a80b63",
+        "subject": "Palikai papildą nepatikrintą 💪",
+        "preheader": "Tavo peržiūrėta prekė vis dar laukia.",
+        "senderEmail": "hello@insanefits.com",
+        "senderName": "Insanefits",
+        "language": "lt_LT",
+        "isSkipAllowed": true
+       }
+      }
+     },
+     {
+      "id": "0322895f-c97b-48be-a653-0b6cc85399b4",
+      "type": "delay",
+      "delay": {
+       "mode": "duration",
+       "duration": {
+        "units": "h",
+        "amount": 1
+       }
+      }
+     },
+     {
+      "id": "79bfc91e-b2f5-4b17-a4c9-a95e10708ce6",
+      "type": "split",
+      "split": {
+       "filterGroup": {
+        "logicalOperator": "and",
+        "filters": [
+         {
+          "type": "message",
+          "field": "blockID",
+          "operator": "openedEmail",
+          "value": "c514079a-251d-4877-9777-a5477cbce930"
+         }
+        ]
+       },
+       "trueBlocks": null,
+       "falseBlocks": [
+        {
+         "id": "6e8a6838-99c7-4155-8321-3b313ddfef2b",
+         "type": "action",
+         "action": {
+          "type": "sendEmail",
+          "sendEmail": {
+           "contentID": "6aa7cefd54c612751026bbb9",
+           "subject": "Gal tai tavo kitas favoritas? 👀",
+           "preheader": "Užmesk akį į prekę ir klientų topus.",
+           "senderEmail": "hello@insanefits.com",
+           "senderName": "Insanefits",
+           "language": "lt_LT",
+           "isSkipAllowed": true
+          }
+         }
+        }
+       ]
+      }
+     }
+    ],
+    "aBlocksPercentage": 50
+   }
+  }
+ ],
+ "exitConditions": [
+  {
+   "event": "placed order",
+   "origin": "shopify"
+  }
+ ],
+ "settings": {
+  "frequencyLimiter": {
+   "mode": "interval",
+   "duration": {
+    "units": "d",
+    "amount": 1
+   }
+  },
+  "sendingThresholds": {
+   "email": "nonSubscribed",
+   "sms": "subscribed"
+  }
+ },
+ "createdAt": "2026-06-04T07:43:00.238Z",
+ "updatedAt": "2026-09-14T10:39:59.135Z",
+ "enabledAt": "2026-09-14T10:39:59.135Z",
+ "disabledAt": "2026-09-14T10:39:55.664Z",
+ "url": "https://app.omnisend.com/automation/edit/6a212c84de553f01826b7d26"
+}

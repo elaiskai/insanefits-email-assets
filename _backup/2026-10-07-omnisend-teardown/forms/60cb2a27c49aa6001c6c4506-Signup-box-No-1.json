@@ -1,0 +1,410 @@
+{
+ "id": "60cb2a27c49aa6001c6c4506",
+ "name": "Signup box No.1",
+ "status": "draft",
+ "content": {
+  "generalSettings": {
+   "content": {
+    "width": "540px",
+    "color": "#212121"
+   },
+   "body": {
+    "backgroundColor": "#222424",
+    "borderRadius": "0px",
+    "borderWidth": "0px",
+    "borderStyle": "solid",
+    "borderColor": ""
+   },
+   "link": {
+    "color": "#ffffff"
+   },
+   "buttonPresets": [
+    {
+     "id": "primary_button",
+     "name": "Primary button",
+     "styles": {
+      "backgroundColor": "#80e0d4",
+      "borderRadius": "0px",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderColor": "#ffffff",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "Poppins, Helvetica Neue, Helvetica, Arial, sans-serif",
+      "fontSize": "14px",
+      "color": "#ffffff",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "12px",
+      "paddingBottom": "12px"
+     }
+    },
+    {
+     "id": "secondary_button",
+     "name": "Secondary button",
+     "styles": {
+      "borderRadius": "0px",
+      "borderWidth": "2px",
+      "borderStyle": "solid",
+      "borderColor": "#121212",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "Poppins, Helvetica Neue, Helvetica, Arial, sans-serif",
+      "fontSize": "14px",
+      "color": "#121212",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "12px",
+      "paddingBottom": "12px"
+     }
+    },
+    {
+     "id": "tertiary_button",
+     "name": "Tertiary button",
+     "styles": {
+      "borderRadius": "0px",
+      "borderWidth": "2px",
+      "borderStyle": "solid",
+      "borderColor": "#FFFFFF",
+      "fontWeight": "bold",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "Poppins, Helvetica Neue, Helvetica, Arial, sans-serif",
+      "fontSize": "14px",
+      "color": "#121212",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "12px",
+      "paddingBottom": "12px"
+     }
+    }
+   ],
+   "textPresets": [
+    {
+     "id": "heading_large",
+     "name": "Heading Large",
+     "styles": {
+      "fontFamily": "Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif",
+      "fontSize": "48px",
+      "color": "#ffffff",
+      "lineHeight": "125%"
+     }
+    },
+    {
+     "id": "heading_medium",
+     "name": "Heading Medium",
+     "styles": {
+      "fontFamily": "Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif",
+      "fontSize": "24px",
+      "color": "#ffffff",
+      "lineHeight": "125%"
+     }
+    },
+    {
+     "id": "heading_small",
+     "name": "Heading Small",
+     "styles": {
+      "fontFamily": "Poppins, Helvetica Neue, Helvetica, Arial, sans-serif",
+      "fontSize": "12px",
+      "color": "#ffffff",
+      "lineHeight": "125%"
+     }
+    },
+    {
+     "id": "paragraph",
+     "name": "Paragraph",
+     "styles": {
+      "fontFamily": "Poppins, Helvetica Neue, Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "color": "#121212",
+      "lineHeight": "150%"
+     }
+    },
+    {
+     "id": "footnote",
+     "name": "Footnote",
+     "styles": {
+      "fontFamily": "Poppins, Helvetica Neue, Helvetica, Arial, sans-serif",
+      "fontSize": "12px",
+      "color": "#ffffff",
+      "lineHeight": "150%"
+     }
+    }
+   ],
+   "closeButton": {
+    "color": "#ffffff",
+    "backgroundColor": "#383838"
+   },
+   "backgroundImage": {
+    "url": "https://formsv2.soundestlink.com/forms/65f201c1bb0e33996b764445",
+    "position": "left",
+    "fit": "cover",
+    "size": "50%"
+   },
+   "fieldStyles": {
+    "fontFamily": "Poppins, Helvetica Neue, Helvetica, Arial, sans-serif",
+    "fontSize": "12px",
+    "fontStyle": "",
+    "textDecoration": "",
+    "errorColor": "#007263",
+    "label": {
+     "color": "#ffffff",
+     "paddingLeft": "0px",
+     "paddingRight": "0px",
+     "paddingTop": "12px",
+     "paddingBottom": "12px"
+    },
+    "placeholder": {
+     "color": "#ffffff"
+    },
+    "field": {
+     "color": "#ffffff",
+     "backgroundColor": "",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px",
+     "borderRadius": "0",
+     "borderStyle": "solid",
+     "borderColor": "#ffffff",
+     "borderWidth": "0 0 2px 0"
+    }
+   },
+   "position": "middleCenter"
+  },
+  "steps": [
+   {
+    "sections": [
+     {
+      "id": "63c50128547ff696033a7deb",
+      "rows": [
+       {
+        "id": "63c50128547ff696033a7dec",
+        "columns": [
+         {
+          "id": "63c50128547ff696033a7ded",
+          "width": "100%",
+          "blocks": [
+           {
+            "id": "65f20259cad7035e9e7efea7",
+            "type": "emailField",
+            "emailField": {
+             "placeholder": "El. pašto adresas",
+             "isRequired": true,
+             "requiredMessage": "This field is required",
+             "errorMessage": "The email address must contain @ and a valid domain",
+             "label": ""
+            },
+            "styleProperties": {
+             "paddingLeft": "12px",
+             "paddingRight": "12px",
+             "paddingTop": "12px",
+             "paddingBottom": "12px"
+            }
+           },
+           {
+            "id": "63c50128547ff696033a7df0",
+            "type": "button",
+            "button": {
+             "type": "submit",
+             "text": "Prenumeruoti",
+             "link": "",
+             "isFullWidth": true
+            },
+            "styleProperties": {
+             "paddingLeft": "12px",
+             "paddingRight": "12px",
+             "paddingTop": "6px",
+             "paddingBottom": "6px"
+            },
+            "stylePresetId": "tertiary_button"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "styleProperties": {
+       "paddingLeft": "20px",
+       "paddingRight": "20px",
+       "paddingTop": "20px",
+       "paddingBottom": "20px",
+       "backgroundColor": "#6B02E8",
+       "opacity": 1,
+       "verticalAlign": "middle"
+      }
+     }
+    ]
+   }
+  ],
+  "successStep": {
+   "sections": [
+    {
+     "id": "63c50128547ff696033a7de3",
+     "rows": [
+      {
+       "id": "63c50128547ff696033a7de4",
+       "columns": [
+        {
+         "id": "63c50128547ff696033a7de5",
+         "width": "100%",
+         "blocks": [
+          {
+           "id": "63c50128547ff696033a7de6",
+           "type": "text",
+           "text": "<h2></h2>",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px",
+            "lineHeight": "100%"
+           },
+           "stylePresetId": "heading_medium"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "styleProperties": {
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "20px",
+      "paddingBottom": "20px",
+      "backgroundColor": "#3bd6c6",
+      "opacity": 1,
+      "verticalAlign": "middle"
+     }
+    }
+   ]
+  },
+  "subscribedStep": {
+   "sections": [
+    {
+     "id": "63c50128547ff696033a7de7",
+     "rows": [
+      {
+       "id": "63c50128547ff696033a7de8",
+       "columns": [
+        {
+         "id": "63c50128547ff696033a7de9",
+         "width": "100%",
+         "blocks": [
+          {
+           "id": "63c50128547ff696033a7dea",
+           "type": "text",
+           "text": "<h2></h2>",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px",
+            "lineHeight": "115%"
+           },
+           "stylePresetId": "heading_medium"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "styleProperties": {
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "20px",
+      "paddingBottom": "20px",
+      "backgroundColor": "#3bd6c6",
+      "opacity": 1,
+      "verticalAlign": "middle"
+     }
+    }
+   ]
+  },
+  "teaser": {
+   "isEnabled": true,
+   "text": "Get 10% off",
+   "visibility": "always",
+   "styleProperties": {
+    "fontFamily": "Poppins, Helvetica Neue, Helvetica, Arial, sans-serif",
+    "fontSize": "14px",
+    "paddingLeft": "16px",
+    "paddingRight": "16px",
+    "paddingTop": "12px",
+    "paddingBottom": "12px",
+    "color": "#ffffff",
+    "backgroundColor": "#3bd6c6",
+    "borderRadius": "0px",
+    "border": "2px solid #3bd6c6",
+    "shape": "rectangle",
+    "desktopStyle": {
+     "marginLeft": "32px",
+     "marginRight": "32px",
+     "marginTop": "32px",
+     "marginBottom": "32px"
+    },
+    "mobileStyle": {
+     "marginLeft": "8px",
+     "marginRight": "8px",
+     "marginTop": "8px",
+     "marginBottom": "8px"
+    }
+   },
+   "position": "bottomLeft",
+   "closeButton": {
+    "isEnabled": false
+   }
+  }
+ },
+ "targeting": {
+  "frequency": {
+   "type": "day",
+   "value": 365
+  },
+  "source": {
+   "excludes": [
+    "omnisendCommunication"
+   ]
+  }
+ },
+ "displayType": "popup",
+ "doubleOptIn": {
+  "isEnabled": false,
+  "email": {
+   "subject": "Please confirm your subscription",
+   "sendersName": "Insanefits",
+   "headline": "Confirm your subscription",
+   "content": "If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above.",
+   "confirmationButton": "Confirm subscription"
+  },
+  "confirmationPage": {
+   "title": "Subscription confirmed!",
+   "content": "Your subscription has been confirmed. Thank you for subscribing!",
+   "isButtonVisible": false,
+   "buttonText": "Continue to our website",
+   "isAutoRedirectEnabled": false,
+   "autoRedirectText": "Redirecting to our website in...",
+   "url": "http://insanefits.com"
+  },
+  "confirmationRedirect": {
+   "isEnabled": false,
+   "url": "http://insanefits.com"
+  }
+ },
+ "createdAt": "2021-06-17T10:55:35.582Z",
+ "updatedAt": "2024-03-13T19:45:56.883Z",
+ "socialMediaSharing": {
+  "title": "Sign up to get our offer",
+  "description": "Subscribe to our newsletter and be the first to get the news, exclusive discounts, best offers and more!"
+ },
+ "autoRedirect": {
+  "isEnabled": false,
+  "url": "http://insanefits.com",
+  "shouldOpenInNewTab": false
+ },
+ "clickOutside": {
+  "isEnabled": false
+ }
+}

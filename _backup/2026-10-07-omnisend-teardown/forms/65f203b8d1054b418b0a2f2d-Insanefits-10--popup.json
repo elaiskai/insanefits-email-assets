@@ -1,0 +1,457 @@
+{
+ "id": "65f203b8d1054b418b0a2f2d",
+ "name": "Insanefits 10% popup",
+ "status": "disabled",
+ "content": {
+  "generalSettings": {
+   "content": {
+    "width": "600px",
+    "color": "#212121"
+   },
+   "body": {
+    "backgroundColor": "#383838",
+    "borderRadius": "0px",
+    "borderWidth": "0px",
+    "borderStyle": "solid",
+    "borderColor": ""
+   },
+   "link": {
+    "color": "#00A3FF"
+   },
+   "buttonPresets": [
+    {
+     "id": "primary_button",
+     "name": "Primary button",
+     "styles": {
+      "backgroundColor": "#00A3FF",
+      "borderRadius": "8px",
+      "borderWidth": "2px",
+      "borderStyle": "solid",
+      "borderColor": "#FFFFFF",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "16px",
+      "color": "#FFFFFF",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "16px",
+      "paddingBottom": "16px"
+     }
+    },
+    {
+     "id": "secondary_button",
+     "name": "Secondary button",
+     "styles": {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": "8px",
+      "borderWidth": "2px",
+      "borderStyle": "solid",
+      "borderColor": "#000000",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "16px",
+      "color": "#000000",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "16px",
+      "paddingBottom": "16px"
+     }
+    },
+    {
+     "id": "tertiary_button",
+     "name": "Tertiary button",
+     "styles": {
+      "backgroundColor": "#000000",
+      "borderRadius": "8px",
+      "borderWidth": "2px",
+      "borderStyle": "solid",
+      "borderColor": "#FFFFFF",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "16px",
+      "color": "#FFFFFF",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "16px",
+      "paddingBottom": "16px"
+     }
+    }
+   ],
+   "textPresets": [
+    {
+     "id": "heading_large",
+     "name": "Heading Large",
+     "styles": {
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "56px",
+      "color": "#FFFFFF",
+      "lineHeight": "125%"
+     }
+    },
+    {
+     "id": "heading_medium",
+     "name": "Heading Medium",
+     "styles": {
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "40px",
+      "color": "#FFFFFF",
+      "lineHeight": "125%"
+     }
+    },
+    {
+     "id": "heading_small",
+     "name": "Heading Small",
+     "styles": {
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "18px",
+      "color": "#FFFFFF",
+      "lineHeight": "125%"
+     }
+    },
+    {
+     "id": "paragraph",
+     "name": "Paragraph",
+     "styles": {
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "14px",
+      "color": "#FFFFFF",
+      "lineHeight": "150%"
+     }
+    },
+    {
+     "id": "footnote",
+     "name": "Footnote",
+     "styles": {
+      "fontFamily": "Arial, sans-serif",
+      "fontSize": "12px",
+      "color": "#FFFFFF",
+      "lineHeight": "150%"
+     }
+    }
+   ],
+   "closeButton": {
+    "color": "#FFFFFF",
+    "backgroundColor": ""
+   },
+   "fieldStyles": {
+    "fontFamily": "Arial, sans-serif",
+    "fontSize": "16px",
+    "fontStyle": "",
+    "textDecoration": "",
+    "errorColor": "#FF0000",
+    "label": {
+     "color": "#FFFFFF",
+     "paddingLeft": "0px",
+     "paddingRight": "0px",
+     "paddingTop": "12px",
+     "paddingBottom": "12px"
+    },
+    "placeholder": {
+     "color": "#FFFFFF"
+    },
+    "field": {
+     "color": "#FFFFFF",
+     "backgroundColor": "",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px",
+     "borderRadius": "8px",
+     "borderStyle": "solid",
+     "borderColor": "#FFFFFF",
+     "borderWidth": "2px"
+    }
+   },
+   "position": "middleCenter"
+  },
+  "steps": [
+   {
+    "sections": [
+     {
+      "id": "624ab2f927652f651edfd0ac",
+      "rows": [
+       {
+        "id": "624ab2f927652f651edfd0ad",
+        "columns": [
+         {
+          "id": "624ab2f927652f651edfd0ae",
+          "width": "100%",
+          "blocks": [
+           {
+            "id": "624ab2f927652f651edfd0b0",
+            "type": "text",
+            "text": "<h2 style=\"text-align: center;\"><strong>Gauk 10% nuolaidos kodą</strong></h2>",
+            "styleProperties": {
+             "fontSize": "32px",
+             "paddingLeft": "12px",
+             "paddingRight": "12px",
+             "paddingTop": "12px",
+             "paddingBottom": "12px"
+            },
+            "stylePresetId": "heading_medium"
+           },
+           {
+            "id": "627932445028ebd8c6660c4f",
+            "type": "text",
+            "text": "<h3>Užsiprenumeruok naujienlaiškį ir gauk 10% nuolaidos kodą! <strong style=\"text-align: center; background-color: transparent; color: unset; font-family: unset; font-size: unset;\">🎁</strong></h3>",
+            "styleProperties": {
+             "paddingLeft": "12px",
+             "paddingRight": "12px",
+             "paddingTop": "12px",
+             "paddingBottom": "12px"
+            },
+            "stylePresetId": "heading_small"
+           },
+           {
+            "id": "62a3147776d81914aa87ed98",
+            "type": "emailField",
+            "emailField": {
+             "placeholder": "Tavo el. pašto adresas",
+             "isRequired": true,
+             "requiredMessage": "This field is required",
+             "errorMessage": "The email address must contain @ and a valid domain",
+             "label": ""
+            },
+            "styleProperties": {
+             "paddingLeft": "12px",
+             "paddingRight": "12px",
+             "paddingTop": "12px",
+             "paddingBottom": "12px"
+            }
+           },
+           {
+            "id": "627932485028ebd8c6660c51",
+            "type": "button",
+            "button": {
+             "type": "submit",
+             "text": "Prenumeruoti ir gauti nuolaidos kodą",
+             "link": "",
+             "isFullWidth": true
+            },
+            "styleProperties": {
+             "paddingLeft": "12px",
+             "paddingRight": "12px",
+             "paddingTop": "12px",
+             "paddingBottom": "12px"
+            },
+            "stylePresetId": "secondary_button"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "styleProperties": {
+       "paddingLeft": "20px",
+       "paddingRight": "20px",
+       "paddingTop": "20px",
+       "paddingBottom": "40px",
+       "backgroundColor": "#000000",
+       "opacity": 1
+      }
+     }
+    ]
+   }
+  ],
+  "successStep": {
+   "sections": [
+    {
+     "id": "62a313b876d81914aa87ed79",
+     "rows": [
+      {
+       "id": "62a313b876d81914aa87ed7a",
+       "columns": [
+        {
+         "id": "62a313b876d81914aa87ed7b",
+         "width": "100%",
+         "blocks": [
+          {
+           "id": "62a313b876d81914aa87ed77",
+           "type": "text",
+           "text": "<h1 style=\"text-align: center;\">AČIŪ</h1>",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           },
+           "stylePresetId": "heading_large"
+          },
+          {
+           "id": "62a313b876d81914aa87ed78",
+           "type": "text",
+           "text": "<h3 style=\"text-align: center;\">Netrukus į nurodytą el. pašto dėžutę gausi laišką su nuolaidos kodu!</h3>",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           },
+           "stylePresetId": "heading_small"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "styleProperties": {
+      "paddingLeft": "20px",
+      "paddingRight": "20px",
+      "paddingTop": "40px",
+      "paddingBottom": "60px",
+      "backgroundColor": "#000000",
+      "opacity": 1
+     }
+    }
+   ]
+  },
+  "subscribedStep": {
+   "sections": [
+    {
+     "id": "6334361f157261686a76626e",
+     "rows": [
+      {
+       "id": "6334361f157261686a76626f",
+       "columns": [
+        {
+         "id": "6334361f157261686a766270",
+         "width": "100%",
+         "blocks": [
+          {
+           "id": "6334361f157261686a76626d",
+           "type": "text",
+           "text": "<h2><strong>You are already subscribed</strong></h2>",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           },
+           "stylePresetId": "heading_medium"
+          }
+         ],
+         "styleProperties": {}
+        }
+       ]
+      }
+     ],
+     "styleProperties": {
+      "paddingLeft": "24px",
+      "paddingRight": "24px",
+      "paddingTop": "24px",
+      "paddingBottom": "24px",
+      "backgroundColor": "#000000",
+      "opacity": 1
+     }
+    }
+   ]
+  },
+  "teaser": {
+   "isEnabled": true,
+   "text": "x",
+   "visibility": "always",
+   "styleProperties": {
+    "fontFamily": "Arial, sans-serif",
+    "fontSize": "18px",
+    "paddingLeft": "16px",
+    "paddingRight": "16px",
+    "paddingTop": "12px",
+    "paddingBottom": "12px",
+    "color": "#FFFFFF",
+    "backgroundColor": "#000000",
+    "borderRadius": "0px",
+    "border": "2px solid #000000",
+    "shape": "rectangle",
+    "desktopStyle": {
+     "marginLeft": "32px",
+     "marginRight": "32px",
+     "marginTop": "32px",
+     "marginBottom": "32px"
+    },
+    "mobileStyle": {
+     "marginLeft": "8px",
+     "marginRight": "8px",
+     "marginTop": "8px",
+     "marginBottom": "8px"
+    }
+   },
+   "position": "bottomLeft",
+   "closeButton": {
+    "isEnabled": false
+   }
+  }
+ },
+ "targeting": {
+  "url": {
+   "excludes": [
+    {
+     "type": "contains",
+     "value": "/cart"
+    },
+    {
+     "type": "contains",
+     "value": "/checkout"
+    }
+   ]
+  },
+  "frequency": {
+   "type": "day",
+   "value": 1
+  },
+  "source": {
+   "excludes": [
+    "omnisendCommunication"
+   ]
+  }
+ },
+ "displayType": "popup",
+ "doubleOptIn": {
+  "isEnabled": false,
+  "email": {
+   "subject": "Please confirm your subscription",
+   "sendersName": "Insanefits",
+   "headline": "Confirm your subscription",
+   "content": "If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above.",
+   "confirmationButton": "Confirm subscription"
+  },
+  "confirmationPage": {
+   "title": "Subscription confirmed!",
+   "content": "Your subscription has been confirmed. Thank you for subscribing!",
+   "isButtonVisible": false,
+   "buttonText": "Continue to our website",
+   "isAutoRedirectEnabled": false,
+   "autoRedirectText": "Redirecting to our website in...",
+   "url": "http://insanefits.com"
+  },
+  "confirmationRedirect": {
+   "isEnabled": false,
+   "url": "http://insanefits.com"
+  }
+ },
+ "createdAt": "2024-03-13T19:51:20.397Z",
+ "launchedAt": "2024-03-13T19:52:46.009Z",
+ "disabledAt": "2024-03-13T19:55:21.749Z",
+ "updatedAt": "2024-03-13T19:55:24.909Z",
+ "socialMediaSharing": {
+  "title": "Sign up to get our offer",
+  "description": "Subscribe to our newsletter and be the first to get the news, exclusive discounts, best offers and more!"
+ },
+ "autoRedirect": {
+  "isEnabled": false,
+  "url": "http://insanefits.com",
+  "shouldOpenInNewTab": false
+ },
+ "contactTags": [
+  "form_subscriber",
+  "welcome_discount"
+ ],
+ "clickOutside": {
+  "isEnabled": false
+ }
+}

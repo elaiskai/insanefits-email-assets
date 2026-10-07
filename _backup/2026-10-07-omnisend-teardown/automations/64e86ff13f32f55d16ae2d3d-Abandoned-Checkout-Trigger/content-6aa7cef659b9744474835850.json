@@ -1,0 +1,813 @@
+{
+ "id": "6aa7cef659b9744474835850",
+ "generalSettings": {
+  "content": {
+   "backgroundColor": "#FFFFFF",
+   "width": "600px",
+   "fontFamily": "Arial, sans-serif",
+   "fontSize": "16px",
+   "color": "#212121"
+  },
+  "logo": {
+   "id": "66d499e2bbdc54a93b70a4e5",
+   "source": "/image/newsletter/66d499e2bbdc54a93b70a4e5",
+   "width": 550,
+   "height": 120,
+   "isCustom": true
+  },
+  "body": {
+   "backgroundColor": "#EDEEF0"
+  },
+  "buttonPresets": [
+   {
+    "id": "primary_button",
+    "name": "Primary button",
+    "styles": {
+     "backgroundColor": "#F77F00",
+     "border": "0px solid #FFFFFF",
+     "borderRadius": "8px",
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "16px",
+     "fontWeight": "bold",
+     "color": "#FFFFFF",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   },
+   {
+    "id": "secondary_button",
+    "name": "Secondary button",
+    "styles": {
+     "backgroundColor": "#FFFFFF",
+     "border": "2px solid #000000",
+     "borderRadius": "0px",
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "16px",
+     "color": "#000000",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   },
+   {
+    "id": "tertiary_button",
+    "name": "Tertiary button",
+    "styles": {
+     "backgroundColor": "#000000",
+     "border": "2px solid #FFFFFF",
+     "borderRadius": "0px",
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "16px",
+     "color": "#FFFFFF",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   }
+  ],
+  "textPresets": [
+   {
+    "id": "heading_large",
+    "name": "Heading Large",
+    "styles": {
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "36px",
+     "color": "#000000",
+     "lineHeight": "1.25"
+    }
+   },
+   {
+    "id": "heading_medium",
+    "name": "Heading Medium",
+    "styles": {
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "30px",
+     "color": "#000000",
+     "lineHeight": "1.25"
+    }
+   },
+   {
+    "id": "heading_small",
+    "name": "Heading Small",
+    "styles": {
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "24px",
+     "color": "#000000",
+     "lineHeight": "1.25"
+    }
+   },
+   {
+    "id": "paragraph",
+    "name": "Paragraph",
+    "styles": {
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "14px",
+     "color": "#000000",
+     "lineHeight": "1.5"
+    }
+   },
+   {
+    "id": "footnote",
+    "name": "Footnote",
+    "styles": {
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "12px",
+     "color": "#000000",
+     "lineHeight": "1.5"
+    }
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "6a2133263db63a44c3d5f5f8",
+   "visibility": {
+    "isMobileVisible": true,
+    "isDesktopVisible": true
+   },
+   "rows": [
+    {
+     "id": "6a2133263db63a44c3d5f5f9",
+     "columns": [
+      {
+       "id": "6a2133263db63a44c3d5f5fa",
+       "width": "552px",
+       "blocks": [
+        {
+         "id": "66d58a382258c7cc6bf83345",
+         "type": "logo",
+         "logo": {
+          "link": "[[account.website]]",
+          "resizeWidth": 158
+         },
+         "styleProperties": {
+          "padding": "12px",
+          "alignment": "center"
+         }
+        },
+        {
+         "id": "6a2137772dabfbc1aa83ea54",
+         "type": "lineSpace",
+         "lineSpace": {
+          "type": "line",
+          "width": 100,
+          "height": 60
+         },
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "6px",
+          "paddingBottom": "6px",
+          "backgroundColor": "transparent",
+          "border": "1px solid #000000",
+          "alignment": "center"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "24px",
+    "paddingRight": "24px",
+    "paddingTop": "24px",
+    "paddingBottom": "0px",
+    "backgroundSize": "cover",
+    "backgroundRepeat": "no-repeat",
+    "backgroundPosition": "unset"
+   }
+  },
+  {
+   "id": "66d58a382258c7cc6bf83342",
+   "visibility": {
+    "isMobileVisible": true,
+    "isDesktopVisible": true
+   },
+   "rows": [
+    {
+     "id": "66d58a382258c7cc6bf83343",
+     "columns": [
+      {
+       "id": "66d58a382258c7cc6bf83344",
+       "width": "600px",
+       "blocks": [
+        {
+         "id": "6a21332b3db63a44c3d5f5fe",
+         "type": "htmlCode",
+         "htmlCode": {
+          "style": "p { text-align: center; }",
+          "body": "\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background-color:#ffffff;\">\n<tr><td align=\"center\" style=\"padding:0;\">\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"width:100%;max-width:600px;margin:0 auto;background-color:#ffffff;font-family:&#39;Barlow&#39;,Arial,Helvetica,sans-serif;\">\n  <tr><td align=\"center\" style=\"padding:48px 36px 0 36px;text-align:center;\">\n    <p style=\"margin:0 0 8px 0;color:#bfa61f;font-size:13px;font-weight:800;letter-spacing:0.16em;text-transform:uppercase;text-align:center;\"></p>\n    <h1 style=\"margin:0;color:#1a1a1a;font-size:32px;line-height:1.12;font-weight:800;letter-spacing:-0.02em;text-align:center;\">Užbaik pirkimą, kai būsi pasiruošęs</h1>\n    <p style=\"margin:16px 0 0 0;color:#4a4a4a;font-size:16px;line-height:1.65;font-weight:500;text-align:center;\">\n      Pastebėjau, kad palikai krepšelį nebaigtą. Jei viskas tinka, grįžk ir užbaik pirkimą, kol tavo pasirinkti produktai dar laukia.\n    </p>\n  </td></tr>\n  \n  <tr><td align=\"center\" style=\"padding:28px 36px 0 36px;\">\n    <table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\n      <tr><td align=\"center\" bgcolor=\"#F77F00\" style=\"border-radius:8px;\">\n        <a href=\"[[event.raw.abandoned_checkout_url]]\" target=\"_blank\" style=\"display:inline-block;padding:18px 48px;font-size:17px;font-weight:800;color:#ffffff;text-decoration:none;text-transform:uppercase;letter-spacing:0.04em;border-radius:8px;\">Užbaigti pirkimą</a>\n      </td></tr>\n    </table>\n  </td></tr>\n  <tr><td align=\"center\" style=\"padding:34px 36px 44px 36px;text-align:center;\">\n    <p style=\"margin:0;color:#1a1a1a;font-size:16px;font-weight:700;text-align:center;\">Pirmyn!</p>\n    <p style=\"margin:4px 0 0 0;color:#4a4a4a;font-size:15px;font-weight:600;text-align:center;\">Lukas</p>\n  </td></tr>\n</table>\n</td></tr>\n</table>"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "paddingTop": "0px",
+    "paddingBottom": "0px",
+    "backgroundColor": "#FFFFFF",
+    "backgroundSize": "cover",
+    "backgroundRepeat": "no-repeat",
+    "backgroundPosition": "unset"
+   }
+  },
+  {
+   "id": "66d58c2869d1dcbff2432be6",
+   "type": "product_cart_recovery",
+   "settings": {
+    "backgroundType": "",
+    "isOutOfStockHidden": true
+   },
+   "visibility": {
+    "isMobileVisible": true,
+    "isDesktopVisible": true
+   },
+   "rows": [
+    {
+     "id": "66d58c9469d1dcbff243ac41",
+     "columns": [
+      {
+       "id": "66d58c9469d1dcbff243ac42",
+       "width": "552px",
+       "blocks": [
+        {
+         "id": "66d58c3d69d1dcbff2433010",
+         "type": "product",
+         "product": {
+          "id": "",
+          "productID": "",
+          "title": "Product name",
+          "originalTitle": "",
+          "description": "Product description",
+          "imageID": "",
+          "imageUrl": "",
+          "price": "$0.00",
+          "oldPrice": "$0.00",
+          "link": "",
+          "buttonText": "Shop now"
+         },
+         "components": [
+          {
+           "id": "66d58c9869d1dcbff243ca2e",
+           "type": "image",
+           "role": "product_image",
+           "image": {
+            "id": "",
+            "link": "",
+            "altText": "",
+            "maxHeight": 528
+           },
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           }
+          },
+          {
+           "id": "66d58c2869d1dcbff2432bf3",
+           "type": "text",
+           "role": "product_title",
+           "text": "<p style=\"margin: 0px; font-weight: 700;\">Product name</p>",
+           "stylePresetID": "paragraph",
+           "styleProperties": {
+            "fontWeight": "700",
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           }
+          },
+          {
+           "id": "66d58c2869d1dcbff2432c05",
+           "type": "price",
+           "role": "product_prices",
+           "text": "",
+           "stylePresetID": "paragraph",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           },
+           "components": [
+            {
+             "id": "66d58c2869d1dcbff2432c06",
+             "type": "text",
+             "role": "product_current_price",
+             "text": "<p style=\"margin: 0px;\">€0.00</p>",
+             "stylePresetID": "paragraph",
+             "styleProperties": {
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingTop": "0px",
+              "paddingBottom": "0px"
+             }
+            },
+            {
+             "id": "66d58c2869d1dcbff2432c07",
+             "type": "text",
+             "role": "product_old_price",
+             "text": "<p style=\"margin: 0px; text-decoration: line-through;\">€0.00</p>",
+             "stylePresetID": "paragraph",
+             "styleProperties": {
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingTop": "0px",
+              "paddingBottom": "0px"
+             }
+            }
+           ]
+          },
+          {
+           "id": "6a213516cbfc63718b9fbb6b",
+           "type": "button",
+           "role": "product_button",
+           "button": {
+            "text": "Užbaigti pirkimą",
+            "link": "",
+            "isFullWidth": true,
+            "translationKey": ""
+           },
+           "stylePresetID": "primary_button",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "66d58c9469d1dcbff243ac43",
+     "columns": [
+      {
+       "id": "66d58c9469d1dcbff243ac44",
+       "width": "552px",
+       "blocks": [
+        {
+         "id": "66d58c3d69d1dcbff2433012",
+         "type": "product",
+         "product": {
+          "id": "",
+          "productID": "",
+          "title": "Product name",
+          "originalTitle": "",
+          "description": "Product description",
+          "imageID": "",
+          "imageUrl": "",
+          "price": "$0.00",
+          "oldPrice": "$0.00",
+          "link": "",
+          "buttonText": "Shop now"
+         },
+         "components": [
+          {
+           "id": "66d58c9869d1dcbff243ca36",
+           "type": "image",
+           "role": "product_image",
+           "image": {
+            "id": "",
+            "link": "",
+            "altText": "",
+            "maxHeight": 528
+           },
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           }
+          },
+          {
+           "id": "66d58c2869d1dcbff2432c1d",
+           "type": "text",
+           "role": "product_title",
+           "text": "<p style=\"margin: 0px; font-weight: 700;\">Product name</p>",
+           "stylePresetID": "paragraph",
+           "styleProperties": {
+            "fontWeight": "700",
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           }
+          },
+          {
+           "id": "66d58c2869d1dcbff2432c2f",
+           "type": "price",
+           "role": "product_prices",
+           "text": "",
+           "stylePresetID": "paragraph",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           },
+           "components": [
+            {
+             "id": "66d58c2869d1dcbff2432c30",
+             "type": "text",
+             "role": "product_current_price",
+             "text": "<p style=\"margin: 0px;\">€0.00</p>",
+             "stylePresetID": "paragraph",
+             "styleProperties": {
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingTop": "0px",
+              "paddingBottom": "0px"
+             }
+            },
+            {
+             "id": "66d58c2869d1dcbff2432c31",
+             "type": "text",
+             "role": "product_old_price",
+             "text": "<p style=\"margin: 0px; text-decoration: line-through;\">€0.00</p>",
+             "stylePresetID": "paragraph",
+             "styleProperties": {
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingTop": "0px",
+              "paddingBottom": "0px"
+             }
+            }
+           ]
+          },
+          {
+           "id": "6a213516cbfc63718b9fbb73",
+           "type": "button",
+           "role": "product_button",
+           "button": {
+            "text": "Užbaigti pirkimą",
+            "link": "",
+            "isFullWidth": true,
+            "translationKey": ""
+           },
+           "stylePresetID": "primary_button",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "66d58c9469d1dcbff243ac45",
+     "columns": [
+      {
+       "id": "66d58c9469d1dcbff243ac46",
+       "width": "552px",
+       "blocks": [
+        {
+         "id": "66d58c9169d1dcbff243746d",
+         "type": "product",
+         "product": {
+          "id": "",
+          "productID": "",
+          "title": "Product name",
+          "originalTitle": "",
+          "description": "Product description",
+          "imageID": "",
+          "imageUrl": "",
+          "price": "$0.00",
+          "oldPrice": "$0.00",
+          "link": "",
+          "buttonText": "Shop now"
+         },
+         "components": [
+          {
+           "id": "66d58c9869d1dcbff243ca3e",
+           "type": "image",
+           "role": "product_image",
+           "image": {
+            "id": "",
+            "link": "",
+            "altText": "",
+            "maxHeight": 528
+           },
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           }
+          },
+          {
+           "id": "66d58c9169d1dcbff2437477",
+           "type": "text",
+           "role": "product_title",
+           "text": "<p style=\"margin: 0px; font-weight: 700;\">Product name</p>",
+           "stylePresetID": "paragraph",
+           "styleProperties": {
+            "fontWeight": "700",
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           }
+          },
+          {
+           "id": "66d58c9169d1dcbff2437481",
+           "type": "price",
+           "role": "product_prices",
+           "text": "",
+           "stylePresetID": "paragraph",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           },
+           "components": [
+            {
+             "id": "66d58c9169d1dcbff2437486",
+             "type": "text",
+             "role": "product_current_price",
+             "text": "<p style=\"margin: 0px;\">€0.00</p>",
+             "stylePresetID": "paragraph",
+             "styleProperties": {
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingTop": "0px",
+              "paddingBottom": "0px"
+             }
+            },
+            {
+             "id": "66d58c9169d1dcbff2437487",
+             "type": "text",
+             "role": "product_old_price",
+             "text": "<p style=\"margin: 0px; text-decoration: line-through;\">€0.00</p>",
+             "stylePresetID": "paragraph",
+             "styleProperties": {
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingTop": "0px",
+              "paddingBottom": "0px"
+             }
+            }
+           ]
+          },
+          {
+           "id": "6a213516cbfc63718b9fbb7b",
+           "type": "button",
+           "role": "product_button",
+           "button": {
+            "text": "Užbaigti pirkimą",
+            "link": "",
+            "isFullWidth": true,
+            "translationKey": ""
+           },
+           "stylePresetID": "primary_button",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "66d58c9469d1dcbff243ac47",
+     "columns": [
+      {
+       "id": "66d58c9469d1dcbff243ac48",
+       "width": "552px",
+       "blocks": [
+        {
+         "id": "66d58c9469d1dcbff243ac26",
+         "type": "product",
+         "product": {
+          "id": "",
+          "productID": "",
+          "title": "Product name",
+          "originalTitle": "",
+          "description": "Product description",
+          "imageID": "",
+          "imageUrl": "",
+          "price": "$0.00",
+          "oldPrice": "$0.00",
+          "link": "",
+          "buttonText": "Shop now"
+         },
+         "components": [
+          {
+           "id": "66d58c9869d1dcbff243ca46",
+           "type": "image",
+           "role": "product_image",
+           "image": {
+            "id": "",
+            "link": "",
+            "altText": "",
+            "maxHeight": 528
+           },
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           }
+          },
+          {
+           "id": "66d58c9469d1dcbff243ac30",
+           "type": "text",
+           "role": "product_title",
+           "text": "<p style=\"margin: 0px; font-weight: 700;\">Product name</p>",
+           "stylePresetID": "paragraph",
+           "styleProperties": {
+            "fontWeight": "700",
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           }
+          },
+          {
+           "id": "66d58c9469d1dcbff243ac3a",
+           "type": "price",
+           "role": "product_prices",
+           "text": "",
+           "stylePresetID": "paragraph",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           },
+           "components": [
+            {
+             "id": "66d58c9469d1dcbff243ac3f",
+             "type": "text",
+             "role": "product_current_price",
+             "text": "<p style=\"margin: 0px;\">€0.00</p>",
+             "stylePresetID": "paragraph",
+             "styleProperties": {
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingTop": "0px",
+              "paddingBottom": "0px"
+             }
+            },
+            {
+             "id": "66d58c9469d1dcbff243ac40",
+             "type": "text",
+             "role": "product_old_price",
+             "text": "<p style=\"margin: 0px; text-decoration: line-through;\">€0.00</p>",
+             "stylePresetID": "paragraph",
+             "styleProperties": {
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "paddingTop": "0px",
+              "paddingBottom": "0px"
+             }
+            }
+           ]
+          },
+          {
+           "id": "6a213516cbfc63718b9fbb83",
+           "type": "button",
+           "role": "product_button",
+           "button": {
+            "text": "Užbaigti pirkimą",
+            "link": "",
+            "isFullWidth": true,
+            "translationKey": ""
+           },
+           "stylePresetID": "primary_button",
+           "styleProperties": {
+            "paddingLeft": "12px",
+            "paddingRight": "12px",
+            "paddingTop": "12px",
+            "paddingBottom": "12px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "24px",
+    "paddingRight": "24px",
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "backgroundSize": "cover",
+    "backgroundRepeat": "no-repeat",
+    "backgroundPosition": "unset"
+   }
+  },
+  {
+   "id": "66d58b289e609adaeca037f3",
+   "visibility": {
+    "isMobileVisible": true,
+    "isDesktopVisible": true
+   },
+   "rows": [
+    {
+     "id": "66d58b289e609adaeca037f4",
+     "columns": [
+      {
+       "id": "66d58b289e609adaeca037f5",
+       "width": "552px",
+       "blocks": [
+        {
+         "id": "66d58b289e609adaeca037f6",
+         "type": "text",
+         "text": "<p style=\"margin: 0px; text-align: center;\"><span style=\"color: rgb(56, 56, 56); font-family: Lucida, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(250, 250, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;\" id=\"isPasted\">Prisijunk prie Insanefits bendruomenės socialiniuose tinkluose!</span></p>",
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "12px",
+          "paddingBottom": "0px",
+          "linkColor": "#0094EB",
+          "letterSpacing": "0px"
+         },
+         "stylePresetID": "footnote"
+        },
+        {
+         "id": "66d58b289e609adaeca037f7",
+         "type": "social",
+         "social": {
+          "icons": [
+           {
+            "type": "facebook",
+            "link": "https://www.facebook.com/Insanefits",
+            "source": "dynamicImage/social/facebook/48/24/383838"
+           },
+           {
+            "type": "instagram",
+            "link": "https://www.instagram.com/insanefits_official/",
+            "source": "dynamicImage/social/instagram/48/24/383838"
+           }
+          ],
+          "size": "24px",
+          "shape": "circle"
+         },
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "0px",
+          "paddingBottom": "12px",
+          "color": "#383838",
+          "alignment": "center"
+         }
+        },
+        {
+         "id": "66d58b289e609adaeca037f8",
+         "type": "text",
+         "text": "<p id=\"isPasted\" style=\"text-align: center; margin: 0px;\"><span style=\"color:rgb(56, 56, 56);font-family:Lucida, sans-serif;font-size:12px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:center;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(250, 250, 250);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;\" id=\"isPasted\">Insanefits.com</span><br style=\"color:rgb(56, 56, 56);font-family:Lucida, sans-serif;font-size:12px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:center;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(250, 250, 250);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;\"><span style=\"color:rgb(56, 56, 56);font-family:Lucida, sans-serif;font-size:12px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:center;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(250, 250, 250);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;\">Aukščiausios kokybės papildai, vitaminai | Sporto ir laisvalaikio drabužiai</span></p><p style=\"text-align: left; margin: 0px;\"><br></p><p style=\"text-align: center; margin: 0px;\"><a href=\"[[unsubscribe_link]]\" target=\"_blank\"><span style=\"color: #383838;\">Atsisakyti prenumeratos</span></a></p>",
+         "styleProperties": {
+          "padding": "12px",
+          "color": "#797979",
+          "linkColor": "#0094EB"
+         },
+         "stylePresetID": "footnote"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "padding": "24px",
+    "paddingLeft": "24px",
+    "paddingRight": "24px",
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "backgroundColor": "#fafafa",
+    "backgroundSize": "cover",
+    "backgroundRepeat": "no-repeat",
+    "backgroundPosition": "unset"
+   }
+  }
+ ],
+ "createdAt": "2026-09-14T10:39:47.218Z",
+ "updatedAt": "2026-09-14T10:39:47.218Z"
+}

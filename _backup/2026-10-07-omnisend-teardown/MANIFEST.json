@@ -1,0 +1,202 @@
+{
+ "exportedAt": "2026-10-07T07:29:11Z",
+ "brand": "insanefits",
+ "automations": [
+  {
+   "id": "6abcd88b2c2ab323fbfa0710",
+   "name": "[IF] Nupirko proteiną -> receptų knyga",
+   "trigger": "ordered product",
+   "emails": [
+    {
+     "contentID": "6abce5ec2ca956b0c3a0f76f",
+     "subject": "Ačiū už užsakymą. Tavo dovana viduje",
+     "htmlBlocks": 1
+    }
+   ]
+  },
+  {
+   "id": "6a2137f38305508380599481",
+   "name": "Abandoned Cart Trigger",
+   "trigger": "added product to cart",
+   "emails": [
+    {
+     "contentID": "6aa7ceeb24cb7458a8429f79",
+     "subject": "Užbaikite apsipirkimą 💪",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7ceec4b3b27d0e7a80b3e",
+     "subject": "Papildai liko krepšelyje! ⏰",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7ceec59b974447483584b",
+     "subject": "Tavo 11% nuolaidos kodas",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7ceec54c612751026bba6",
+     "subject": "Užbaikite apsipirkimą 💪",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7ceec24cb7458a8429f7a",
+     "subject": "Papildai liko krepšelyje! ⏰",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7ceec59b974447483584c",
+     "subject": "Tavo 11% nuolaidos kodas",
+     "htmlBlocks": 0
+    }
+   ]
+  },
+  {
+   "id": "6a212c84de553f01826b7d26",
+   "name": "Product Abandonment Engagement Split",
+   "trigger": "viewed product",
+   "emails": [
+    {
+     "contentID": "6aa7cefd59b9744474835855",
+     "subject": "Palikai papildą nepatikrintą 💪",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7cefd4b3b27d0e7a80b63",
+     "subject": "Palikai papildą nepatikrintą 💪",
+     "htmlBlocks": 0
+    }
+   ]
+  },
+  {
+   "id": "6a212aec5e898a73f9a36e49",
+   "name": "Product Reviews",
+   "trigger": "order fulfilled",
+   "emails": [
+    {
+     "contentID": "6a212aec01c1dd8760eddedb",
+     "subject": "Ačiū, kad pasirinkai mus 💛",
+     "htmlBlocks": 0
+    }
+   ]
+  },
+  {
+   "id": "6a20877a8ac35d6deb9dc574",
+   "name": "[IF] Welcome serija (eLaiškai 2026-06)",
+   "trigger": "subscribed to marketing",
+   "emails": [
+    {
+     "contentID": "6a20877ba91bd1ff51d8648d",
+     "subject": "Sveikas prisijungęs prie Insane Fits 💪",
+     "htmlBlocks": 1
+    },
+    {
+     "contentID": "6a20877b95f266088730f06a",
+     "subject": "Mano istorija ir pradžia 💪",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6a20877bcb78a537748f0748",
+     "subject": "Dar spėji pradėti stipriau 💪",
+     "htmlBlocks": 1
+    }
+   ]
+  },
+  {
+   "id": "66d585db069079e2f07b3424",
+   "name": "Customer Reactivation",
+   "trigger": "placed order",
+   "emails": [
+    {
+     "contentID": "66d585dca1c34cc1e2073865",
+     "subject": "Pasiilgome tavęs! 💪",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "66d585dc6cb5e35d3aebb42b",
+     "subject": "Ar matei, kas naujo? 👀",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "66d585dc2363df86bb56a040",
+     "subject": "Paskutinė 15% galimybė! ⏰",
+     "htmlBlocks": 0
+    }
+   ]
+  },
+  {
+   "id": "64e86ff13f32f55d16ae2d3d",
+   "name": "Abandoned Checkout Trigger",
+   "trigger": "started checkout",
+   "emails": [
+    {
+     "contentID": "6aa7cef659b974447483584e",
+     "subject": "Užbaikite apsipirkimą 💪",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7cef659b974447483584f",
+     "subject": "Papildai liko krepšelyje! ⏰",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7cef64b3b27d0e7a80b57",
+     "subject": "Tavo 11% nuolaidos kodas",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7cef659b9744474835850",
+     "subject": "Užbaikite apsipirkimą 💪",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7cef64b3b27d0e7a80b5c",
+     "subject": "Papildai liko krepšelyje! ⏰",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7cef64b3b27d0e7a80b5d",
+     "subject": "Tavo 11% nuolaidos kodas",
+     "htmlBlocks": 0
+    }
+   ]
+  }
+ ],
+ "forms": [
+  {
+   "id": "6a2139701a67df459ff5b39c",
+   "name": "10% Popup MOBILE",
+   "status": "enabled"
+  },
+  {
+   "id": "6a21394afb74517726d259a2",
+   "name": "10% Popup DESKTOP",
+   "status": "enabled"
+  },
+  {
+   "id": "674340dbdcdc64b34f2f4636",
+   "name": "Black friday email form",
+   "status": "enabled"
+  },
+  {
+   "id": "65f20695c13f2fc3ef49ca88",
+   "name": "Main pop-up",
+   "status": "disabled"
+  },
+  {
+   "id": "65f203b8d1054b418b0a2f2d",
+   "name": "Insanefits 10% popup",
+   "status": "disabled"
+  },
+  {
+   "id": "655c94707ab1d99c6c532a44",
+   "name": "Branded Email capture",
+   "status": "enabled"
+  },
+  {
+   "id": "60cb2a27c49aa6001c6c4506",
+   "name": "Signup box No.1",
+   "status": "draft"
+  }
+ ]
+}

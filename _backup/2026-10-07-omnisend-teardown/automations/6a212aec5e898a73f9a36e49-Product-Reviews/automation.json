@@ -1,0 +1,57 @@
+{
+ "id": "6a212aec5e898a73f9a36e49",
+ "brandID": "5fb8f11d99f0b7071afb51ba",
+ "name": "Product Reviews",
+ "isEnabled": true,
+ "trigger": {
+  "condition": {
+   "event": "order fulfilled",
+   "origin": "shopify"
+  }
+ },
+ "blocks": [
+  {
+   "id": "xnPGBRme",
+   "type": "delay",
+   "delay": {
+    "mode": "duration",
+    "duration": {
+     "units": "w",
+     "amount": 2
+    }
+   }
+  },
+  {
+   "id": "g3vaFYq3",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "6a212aec01c1dd8760eddedb",
+     "subject": "Ačiū, kad pasirinkai mus 💛",
+     "preheader": "Tavo atsiliepimas labai padėtų Insane Fits augti.",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Insanefits",
+     "language": "lt_LT",
+     "isSkipAllowed": true
+    }
+   }
+  }
+ ],
+ "exitConditions": [
+  {
+   "event": "order refunded",
+   "origin": "shopify"
+  }
+ ],
+ "settings": {
+  "sendingThresholds": {
+   "email": "nonSubscribed",
+   "sms": "subscribed"
+  }
+ },
+ "createdAt": "2026-06-04T07:36:12.688Z",
+ "updatedAt": "2026-06-04T07:42:10.62Z",
+ "enabledAt": "2026-06-04T07:42:10.62Z",
+ "url": "https://app.omnisend.com/automation/edit/6a212aec5e898a73f9a36e49"
+}

@@ -1,0 +1,111 @@
+{
+ "id": "66d585db069079e2f07b3424",
+ "brandID": "5fb8f11d99f0b7071afb51ba",
+ "name": "Customer Reactivation",
+ "isEnabled": true,
+ "trigger": {
+  "condition": {
+   "event": "placed order",
+   "origin": "shopify"
+  }
+ },
+ "blocks": [
+  {
+   "id": "2HzrCwYgVsdXSiGr0IDmyu0Pkj9",
+   "type": "delay",
+   "delay": {
+    "mode": "duration",
+    "duration": {
+     "units": "d",
+     "amount": 60
+    }
+   }
+  },
+  {
+   "id": "2HzrCtBvONXad6zveJlfyz7lux0",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "66d585dca1c34cc1e2073865",
+     "subject": "Pasiilgome tavęs! 💪",
+     "preheader": "Grįžk į ritmą su 9% nuolaida.",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Insanefits",
+     "language": "lt_LT",
+     "isSkipAllowed": true
+    }
+   }
+  },
+  {
+   "id": "2HzrCuNfxMZqbrwIqzM3Pd114sn",
+   "type": "delay",
+   "delay": {
+    "mode": "duration",
+    "duration": {
+     "units": "d",
+     "amount": 10
+    }
+   }
+  },
+  {
+   "id": "2HzrCtlAiHHtaBcEhjvCXhOKc6j",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "66d585dc6cb5e35d3aebb42b",
+     "subject": "Ar matei, kas naujo? 👀",
+     "preheader": "Atrinkome produktus tavo treniruočių rutinai.",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Insanefits",
+     "language": "lt_LT",
+     "isSkipAllowed": true
+    }
+   }
+  },
+  {
+   "id": "2HzrD4wppTIjSaCPuxRq2iWUWEA",
+   "type": "delay",
+   "delay": {
+    "mode": "duration",
+    "duration": {
+     "units": "d",
+     "amount": 5
+    }
+   }
+  },
+  {
+   "id": "2HzrCyKDg6uDPdAEJ0vemdy3tT2",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "66d585dc2363df86bb56a040",
+     "subject": "Paskutinė 15% galimybė! ⏰",
+     "preheader": "Jei planavai papildyti atsargas, dabar metas.",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Insanefits",
+     "language": "lt_LT",
+     "isSkipAllowed": true
+    }
+   }
+  }
+ ],
+ "exitConditions": [
+  {
+   "event": "placed order",
+   "origin": "shopify"
+  }
+ ],
+ "settings": {
+  "sendingThresholds": {
+   "email": "nonSubscribed",
+   "sms": "subscribed"
+  }
+ },
+ "createdAt": "2024-09-02T09:31:07.966Z",
+ "updatedAt": "2026-06-04T07:33:50.992Z",
+ "enabledAt": "2024-09-02T09:43:48.139Z",
+ "url": "https://app.omnisend.com/automation/edit/66d585db069079e2f07b3424"
+}

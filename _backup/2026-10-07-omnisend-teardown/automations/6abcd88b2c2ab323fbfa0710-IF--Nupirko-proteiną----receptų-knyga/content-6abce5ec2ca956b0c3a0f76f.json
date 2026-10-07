@@ -1,0 +1,164 @@
+{
+ "id": "6abce5ec2ca956b0c3a0f76f",
+ "generalSettings": {
+  "content": {
+   "backgroundColor": "#FFFFFF",
+   "width": "600px",
+   "fontFamily": "Arial, sans-serif",
+   "fontSize": "16px",
+   "color": "#212121"
+  },
+  "logo": {
+   "id": "66d499e2bbdc54a93b70a4e5",
+   "source": "/image/newsletter/66d499e2bbdc54a93b70a4e5",
+   "width": 550,
+   "height": 120,
+   "isCustom": true
+  },
+  "body": {
+   "backgroundColor": "#FFFFFF"
+  },
+  "buttonPresets": [
+   {
+    "id": "primary_button",
+    "name": "Primary button",
+    "styles": {
+     "backgroundColor": "#6014F9",
+     "border": "0px solid #FFFFFF",
+     "borderRadius": "8px",
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "16px",
+     "color": "#FFFFFF",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   },
+   {
+    "id": "secondary_button",
+    "name": "Secondary button",
+    "styles": {
+     "border": "2px solid #383838",
+     "borderRadius": "0px",
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "16px",
+     "color": "#383838",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   },
+   {
+    "id": "tertiary_button",
+    "name": "Tertiary button",
+    "styles": {
+     "border": "2px solid #efefef",
+     "borderRadius": "0px",
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "16px",
+     "color": "#383838",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   }
+  ],
+  "textPresets": [
+   {
+    "id": "heading_large",
+    "name": "Heading Large",
+    "styles": {
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "36px",
+     "color": "#000000",
+     "lineHeight": "1.25"
+    }
+   },
+   {
+    "id": "heading_medium",
+    "name": "Heading Medium",
+    "styles": {
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "30px",
+     "color": "#000000",
+     "lineHeight": "1.25"
+    }
+   },
+   {
+    "id": "heading_small",
+    "name": "Heading Small",
+    "styles": {
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "24px",
+     "color": "#000000",
+     "lineHeight": "1.25"
+    }
+   },
+   {
+    "id": "paragraph",
+    "name": "Paragraph",
+    "styles": {
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "14px",
+     "color": "#000000",
+     "lineHeight": "1.5"
+    }
+   },
+   {
+    "id": "footnote",
+    "name": "Footnote",
+    "styles": {
+     "fontFamily": "Lucida, sans-serif",
+     "fontSize": "12px",
+     "color": "#000000",
+     "lineHeight": "1.5"
+    }
+   }
+  ],
+  "gmail": {
+   "annotation": {
+    "isEnabled": false,
+    "discountDescription": ""
+   }
+  }
+ },
+ "sections": [
+  {
+   "id": "cb1f375b59e34a99ae2c7e74",
+   "visibility": {
+    "isMobileVisible": true,
+    "isDesktopVisible": true
+   },
+   "rows": [
+    {
+     "id": "fd9f6480080d40019bb63f67",
+     "columns": [
+      {
+       "id": "959f607298cf4718aefa01e9",
+       "width": "600px",
+       "blocks": [
+        {
+         "id": "a56be6c2bbcc4645a9179ddd",
+         "type": "html",
+         "html": "\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background:#eeece9;\"><tr><td align=\"center\" style=\"padding:0;\">\n\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"width:100%;max-width:600px;margin:0 auto;background:#faf8f4;\">\n\n  \n  <tr><td align=\"center\" bgcolor=\"#161616\" style=\"padding:28px 24px;background:#161616;\">\n    <a href=\"https://insanefits.com/\" target=\"_blank\"><img src=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@f3c505b0f0f7c6bb833a43e8ebead5e2b80e2b4b/campaigns/2026-09/proteino-receptu-knyga/assets/logo.png\" width=\"150\" alt=\"Insane Labs\" style=\"display:block;width:150px;max-width:100%;height:auto;border:0;\"></a>\n  </td></tr>\n\n  \n  <tr><td style=\"padding:38px 28px 0 28px;\">\n    <p style=\"margin:0 0 16px;color:#ad411f;font-family:Montserrat,Arial,sans-serif;font-size:11px;line-height:17px;font-weight:800;letter-spacing:2px;\">DOVANA PRIE TAVO UŽSAKYMO</p>\n    <h1 style=\"margin:0 0 20px;color:#222222;font-family:Montserrat,Arial,sans-serif;font-size:38px;line-height:42px;font-weight:800;letter-spacing:-1px;\">Proteinas užsakytas.<br>Receptai jau čia.</h1>\n    <p style=\"margin:0 0 24px;color:#222222;font-family:Montserrat,Arial,sans-serif;font-size:16px;line-height:26px;font-weight:500;\">Ačiū, kad pasirinkai mūsų proteiną. Dovanoju tau mano ir mano žmonos Paulinos receptų knygą, kad turėtum daugiau idėjų, ką skanaus pasigaminti.</p>\n    <a href=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@f3c505b0f0f7c6bb833a43e8ebead5e2b80e2b4b/campaigns/2026-09/proteino-receptu-knyga/receptu-knyga.pdf\" target=\"_blank\" style=\"display:block;padding:18px 12px;background:#ef5c2e;color:#ffffff;border-radius:5px;text-align:center;text-decoration:none;font-family:Montserrat,Arial,sans-serif;font-size:15px;line-height:22px;font-weight:800;\">ATSISIŲSTI RECEPTŲ KNYGĄ</a>\n    <p style=\"margin:10px 0 28px;text-align:center;color:#74716c;font-family:Montserrat,Arial,sans-serif;font-size:11px;line-height:17px;font-weight:500;\">PDF formatas · Dovana tau</p>\n  </td></tr>\n\n  \n  <tr><td align=\"center\" style=\"padding:0 28px 34px 28px;\">\n    <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background:#e6e2da;border-radius:8px;\"><tr><td align=\"center\" style=\"padding:30px 26px;\">\n      <a href=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@f3c505b0f0f7c6bb833a43e8ebead5e2b80e2b4b/campaigns/2026-09/proteino-receptu-knyga/receptu-knyga.pdf\" target=\"_blank\"><img src=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@f3c505b0f0f7c6bb833a43e8ebead5e2b80e2b4b/campaigns/2026-09/proteino-receptu-knyga/assets/knygos-virselis.jpg\" width=\"270\" alt=\"Mano ir mano žmonos Paulinos receptų knygos viršelis\" style=\"display:block;width:100%;max-width:270px;height:auto;border:0;box-shadow:8px 12px 20px #b1aca3;\"></a>\n    </td></tr></table>\n  </td></tr>\n\n  \n  <tr><td style=\"padding:0 28px 30px 28px;\">\n    <p style=\"margin:0 0 10px;color:#ad411f;font-family:Montserrat,Arial,sans-serif;font-size:11px;line-height:17px;font-weight:800;letter-spacing:2px;\">NUO KO PRADĖTI?</p>\n    <h2 style=\"margin:0 0 18px;color:#222222;font-family:Montserrat,Arial,sans-serif;font-size:27px;line-height:34px;font-weight:800;letter-spacing:-0.7px;\">Du receptai su proteinu</h2>\n\n    <div style=\"text-align:center;font-size:0;\">\n    \n    <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"display:inline-table;width:100%;max-width:260px;vertical-align:top;text-align:left;\"><tr><td style=\"padding:0 8px 24px;\">\n      <a href=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@f3c505b0f0f7c6bb833a43e8ebead5e2b80e2b4b/campaigns/2026-09/proteino-receptu-knyga/receptu-knyga.pdf#page=5\" target=\"_blank\" style=\"display:block;\"><img src=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@f3c505b0f0f7c6bb833a43e8ebead5e2b80e2b4b/campaigns/2026-09/proteino-receptu-knyga/assets/bananu-duona.jpg\" width=\"244\" alt=\"Bananų duona su šokoladiniu InsaneFits proteinu\" style=\"display:block;width:100%;height:auto;border:0;border-radius:6px;\"></a>\n      <p style=\"margin:16px 0 7px;color:#ad411f;font-family:Montserrat,Arial,sans-serif;font-size:10px;line-height:16px;letter-spacing:1px;font-weight:800;\">01 · 5 PUSLAPIS</p>\n      <h3 style=\"margin:0 0 9px;color:#222222;font-family:Montserrat,Arial,sans-serif;font-size:19px;line-height:25px;font-weight:700;\">Bananų duona</h3>\n      <p style=\"margin:0 0 14px;color:#55524d;font-family:Montserrat,Arial,sans-serif;font-size:14px;line-height:23px;font-weight:500;\">Su šokoladiniu arba kavos skonio proteinu.</p>\n      <a href=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@f3c505b0f0f7c6bb833a43e8ebead5e2b80e2b4b/campaigns/2026-09/proteino-receptu-knyga/receptu-knyga.pdf#page=5\" target=\"_blank\" style=\"display:block;padding:12px 8px;border:1px solid #b7afa4;border-radius:4px;text-align:center;text-decoration:none;color:#222222;font-family:Montserrat,Arial,sans-serif;font-size:13px;line-height:20px;font-weight:700;\">Peržiūrėti receptą</a>\n    </td></tr></table>\n    \n    <table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"display:inline-table;width:100%;max-width:260px;vertical-align:top;text-align:left;\"><tr><td style=\"padding:0 8px 24px;\">\n      <a href=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@f3c505b0f0f7c6bb833a43e8ebead5e2b80e2b4b/campaigns/2026-09/proteino-receptu-knyga/receptu-knyga.pdf#page=11\" target=\"_blank\" style=\"display:block;\"><img src=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@f3c505b0f0f7c6bb833a43e8ebead5e2b80e2b4b/campaigns/2026-09/proteino-receptu-knyga/assets/baltymine-kava.jpg\" width=\"244\" alt=\"Šalta baltyminė kava su ledukais ir InsaneFits proteinu\" style=\"display:block;width:100%;height:auto;border:0;border-radius:6px;\"></a>\n      <p style=\"margin:16px 0 7px;color:#ad411f;font-family:Montserrat,Arial,sans-serif;font-size:10px;line-height:16px;letter-spacing:1px;font-weight:800;\">02 · 11 PUSLAPIS</p>\n      <h3 style=\"margin:0 0 9px;color:#222222;font-family:Montserrat,Arial,sans-serif;font-size:19px;line-height:25px;font-weight:700;\">Šalta baltyminė kava</h3>\n      <p style=\"margin:0 0 14px;color:#55524d;font-family:Montserrat,Arial,sans-serif;font-size:14px;line-height:23px;font-weight:500;\">Espresas, kokosų pienas, ledukai ir proteinas.</p>\n      <a href=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@f3c505b0f0f7c6bb833a43e8ebead5e2b80e2b4b/campaigns/2026-09/proteino-receptu-knyga/receptu-knyga.pdf#page=11\" target=\"_blank\" style=\"display:block;padding:12px 8px;border:1px solid #b7afa4;border-radius:4px;text-align:center;text-decoration:none;color:#222222;font-family:Montserrat,Arial,sans-serif;font-size:13px;line-height:20px;font-weight:700;\">Peržiūrėti receptą</a>\n    </td></tr></table>\n    \n    </div>\n\n    <p style=\"margin:12px 0 24px;color:#222222;font-family:Montserrat,Arial,sans-serif;font-size:15px;line-height:25px;font-weight:500;\">Viduje rasi ir blynų, vaflių, picos bei kitų patiekalų. Išsisaugok knygą telefone, kad receptai būtų po ranka.</p>\n    <a href=\"https://cdn.jsdelivr.net/gh/elaiskai/insanefits-email-assets@f3c505b0f0f7c6bb833a43e8ebead5e2b80e2b4b/campaigns/2026-09/proteino-receptu-knyga/receptu-knyga.pdf\" target=\"_blank\" style=\"display:block;padding:18px 12px;background:#161616;color:#ffffff;border-radius:5px;text-align:center;text-decoration:none;font-family:Montserrat,Arial,sans-serif;font-size:15px;line-height:22px;font-weight:800;\">PASIIMTI SAVO KNYGĄ</a>\n    <p style=\"margin:27px 0 0;color:#222222;font-family:Montserrat,Arial,sans-serif;font-size:16px;line-height:25px;font-weight:500;\">Skanaus!<br><strong style=\"font-weight:800;\">Lukas</strong></p>\n  </td></tr>\n\n  \n  <tr><td style=\"padding:25px 28px 28px 28px;border-top:1px solid #ded9d1;color:#74716c;font-family:Montserrat,Arial,sans-serif;font-size:11px;line-height:19px;font-weight:500;\">\n    Šią receptų knygą dovanoju prie tavo proteino užsakymo.<br>\n    Kilo klausimų? <a href=\"mailto:hello@insanefits.com\" style=\"color:#44413d;\">hello@insanefits.com</a><br>\n    <a href=\"https://insanefits.com/\" target=\"_blank\" style=\"color:#44413d;\">insanefits.com</a>\n  </td></tr>\n\n</table>\n\n</td></tr></table>\n"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "paddingTop": "0px",
+    "paddingBottom": "0px",
+    "backgroundColor": "#FFFFFF"
+   }
+  }
+ ],
+ "createdAt": "2026-09-30T09:38:19.524Z",
+ "updatedAt": "2026-09-30T10:35:23.519Z"
+}

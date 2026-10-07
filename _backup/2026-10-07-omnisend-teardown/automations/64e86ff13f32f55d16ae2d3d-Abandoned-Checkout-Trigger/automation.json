@@ -1,0 +1,206 @@
+{
+ "id": "64e86ff13f32f55d16ae2d3d",
+ "brandID": "5fb8f11d99f0b7071afb51ba",
+ "name": "Abandoned Checkout Trigger",
+ "isEnabled": true,
+ "trigger": {
+  "condition": {
+   "event": "started checkout",
+   "origin": "shopify"
+  },
+  "inactivitySettings": {
+   "duration": {
+    "units": "m",
+    "amount": 30
+   }
+  }
+ },
+ "blocks": [
+  {
+   "id": "3b802b35-47d9-4393-b165-42ca3cac8947",
+   "type": "abTesting",
+   "abTesting": {
+    "aBlocks": [
+     {
+      "id": "bd191e65-368c-4239-8242-42049f52ffc3",
+      "type": "delay",
+      "delay": {
+       "mode": "duration",
+       "duration": {
+        "units": "m",
+        "amount": 30
+       }
+      }
+     },
+     {
+      "id": "8591e9f1-e897-4ecf-af4a-3f39f68f4755",
+      "type": "action",
+      "action": {
+       "type": "sendEmail",
+       "sendEmail": {
+        "contentID": "6aa7cef659b974447483584e",
+        "subject": "Užbaikite apsipirkimą 💪",
+        "preheader": "Jūsų krepšelyje liko prekių",
+        "senderEmail": "hello@insanefits.com",
+        "senderName": "Lukas | InsaneFits",
+        "language": "lt_LT",
+        "isSkipAllowed": true
+       }
+      }
+     },
+     {
+      "id": "b3b08732-f296-40a2-9a2c-d31792fd6bea",
+      "type": "delay",
+      "delay": {
+       "mode": "duration",
+       "duration": {
+        "units": "h",
+        "amount": 11
+       }
+      }
+     },
+     {
+      "id": "a14176aa-f35b-4d85-869c-883c34de8d15",
+      "type": "action",
+      "action": {
+       "type": "sendEmail",
+       "sendEmail": {
+        "contentID": "6aa7cef659b974447483584f",
+        "subject": "Papildai liko krepšelyje! ⏰",
+        "preheader": "Nenoriu spausti, tik primenu apie paliktus papildus.",
+        "senderEmail": "hello@insanefits.com",
+        "senderName": "Lukas | InsaneFits",
+        "language": "lt_LT",
+        "isSkipAllowed": true
+       }
+      }
+     },
+     {
+      "id": "c6ee2dbe-4ff9-4b23-a644-f80b7d611973",
+      "type": "delay",
+      "delay": {
+       "mode": "duration",
+       "duration": {
+        "units": "h",
+        "amount": 12
+       }
+      }
+     },
+     {
+      "id": "6712e19a-ffca-4d3d-bca6-c549b6939f55",
+      "type": "action",
+      "action": {
+       "type": "sendEmail",
+       "sendEmail": {
+        "contentID": "6aa7cef64b3b27d0e7a80b57",
+        "subject": "Tavo 11% nuolaidos kodas",
+        "preheader": "Pabaikite pirkimą ir mokėkite mažiau",
+        "senderEmail": "hello@insanefits.com",
+        "senderName": "Lukas | InsaneFits",
+        "language": "lt_LT",
+        "isSkipAllowed": true
+       }
+      }
+     }
+    ],
+    "bBlocks": [
+     {
+      "id": "962aa7d9-363a-46b2-b870-8daed8411421",
+      "type": "action",
+      "action": {
+       "type": "sendEmail",
+       "sendEmail": {
+        "contentID": "6aa7cef659b9744474835850",
+        "subject": "Užbaikite apsipirkimą 💪",
+        "preheader": "Jūsų krepšelyje liko prekių",
+        "senderEmail": "hello@insanefits.com",
+        "senderName": "Lukas | InsaneFits",
+        "language": "lt_LT",
+        "isSkipAllowed": true
+       }
+      }
+     },
+     {
+      "id": "236fd67c-e7b4-4ca8-a1c4-a166ee1f2cfe",
+      "type": "delay",
+      "delay": {
+       "mode": "duration",
+       "duration": {
+        "units": "h",
+        "amount": 4
+       }
+      }
+     },
+     {
+      "id": "d974c536-1cef-4dde-aa18-72a4bb6eb0f3",
+      "type": "action",
+      "action": {
+       "type": "sendEmail",
+       "sendEmail": {
+        "contentID": "6aa7cef64b3b27d0e7a80b5c",
+        "subject": "Papildai liko krepšelyje! ⏰",
+        "preheader": "Nenoriu spausti, tik primenu apie paliktus papildus.",
+        "senderEmail": "hello@insanefits.com",
+        "senderName": "Lukas | InsaneFits",
+        "language": "lt_LT",
+        "isSkipAllowed": true
+       }
+      }
+     },
+     {
+      "id": "465be59d-1b44-45b2-9955-a20624fabfc4",
+      "type": "delay",
+      "delay": {
+       "mode": "duration",
+       "duration": {
+        "units": "h",
+        "amount": 8
+       }
+      }
+     },
+     {
+      "id": "78d5b35d-3f80-4ad8-ae8e-47da0121ad0a",
+      "type": "action",
+      "action": {
+       "type": "sendEmail",
+       "sendEmail": {
+        "contentID": "6aa7cef64b3b27d0e7a80b5d",
+        "subject": "Tavo 11% nuolaidos kodas",
+        "preheader": "Pabaikite pirkimą ir mokėkite mažiau",
+        "senderEmail": "hello@insanefits.com",
+        "senderName": "Lukas | InsaneFits",
+        "language": "lt_LT",
+        "isSkipAllowed": true
+       }
+      }
+     }
+    ],
+    "aBlocksPercentage": 50
+   }
+  }
+ ],
+ "exitConditions": [
+  {
+   "event": "placed order",
+   "origin": "shopify"
+  }
+ ],
+ "settings": {
+  "frequencyLimiter": {
+   "mode": "interval",
+   "duration": {
+    "units": "d",
+    "amount": 1
+   }
+  },
+  "sendingThresholds": {
+   "email": "nonSubscribed",
+   "sms": "subscribed"
+  }
+ },
+ "createdAt": "2023-08-25T09:10:09.975Z",
+ "updatedAt": "2026-09-14T10:39:53.173Z",
+ "enabledAt": "2026-09-14T10:39:53.173Z",
+ "disabledAt": "2026-09-14T10:39:49.027Z",
+ "url": "https://app.omnisend.com/automation/edit/64e86ff13f32f55d16ae2d3d"
+}

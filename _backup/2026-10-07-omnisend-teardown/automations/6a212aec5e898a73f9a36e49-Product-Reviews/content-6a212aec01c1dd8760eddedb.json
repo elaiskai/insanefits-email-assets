@@ -1,0 +1,781 @@
+{
+ "id": "6a212aec01c1dd8760eddedb",
+ "generalSettings": {
+  "content": {
+   "backgroundColor": "#FFFFFF",
+   "width": "600px",
+   "fontFamily": "Arial, sans-serif",
+   "fontSize": "16px",
+   "color": "#212121"
+  },
+  "logo": {
+   "id": "66d499e2bbdc54a93b70a4e5",
+   "source": "/image/newsletter/66d499e2bbdc54a93b70a4e5",
+   "altText": "logo",
+   "width": 248,
+   "height": 86
+  },
+  "body": {
+   "backgroundColor": "#EDEEF0"
+  },
+  "buttonPresets": [
+   {
+    "id": "primary_button",
+    "name": "Primary button",
+    "styles": {
+     "backgroundColor": "#F77F00",
+     "border": "0px solid #FFFFFF",
+     "borderRadius": "8px",
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "16px",
+     "fontWeight": "bold",
+     "color": "#FFFFFF",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   },
+   {
+    "id": "secondary_button",
+    "name": "Secondary button",
+    "styles": {
+     "backgroundColor": "#FFFFFF",
+     "border": "2px solid #000000",
+     "borderRadius": "0px",
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "16px",
+     "color": "#000000",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   },
+   {
+    "id": "tertiary_button",
+    "name": "Tertiary button",
+    "styles": {
+     "backgroundColor": "#000000",
+     "border": "2px solid #FFFFFF",
+     "borderRadius": "0px",
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "16px",
+     "color": "#FFFFFF",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   }
+  ],
+  "textPresets": [
+   {
+    "id": "heading_large",
+    "name": "Heading Large",
+    "styles": {
+     "fontFamily": "Georgia, serif",
+     "fontSize": "36px",
+     "color": "#000000",
+     "lineHeight": "125%"
+    }
+   },
+   {
+    "id": "heading_medium",
+    "name": "Heading Medium",
+    "styles": {
+     "fontFamily": "Georgia, serif",
+     "fontSize": "30px",
+     "color": "#000000",
+     "lineHeight": "125%"
+    }
+   },
+   {
+    "id": "heading_small",
+    "name": "Heading Small",
+    "styles": {
+     "fontFamily": "Georgia, serif",
+     "fontSize": "24px",
+     "color": "#000000",
+     "lineHeight": "125%"
+    }
+   },
+   {
+    "id": "paragraph",
+    "name": "Paragraph",
+    "styles": {
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "14px",
+     "color": "#000000",
+     "lineHeight": "150%"
+    }
+   },
+   {
+    "id": "footnote",
+    "name": "Footnote",
+    "styles": {
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "12px",
+     "color": "#000000",
+     "lineHeight": "150%"
+    }
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "6a212ba5a8b580d24e1ebfa5",
+   "visibility": {
+    "isMobileVisible": true,
+    "isDesktopVisible": true
+   },
+   "rows": [
+    {
+     "id": "6a212ba5a8b580d24e1ebfa6",
+     "columns": [
+      {
+       "id": "6a212ba5a8b580d24e1ebfa7",
+       "width": "552px",
+       "blocks": [
+        {
+         "id": "64520e5b0b42aa7349bc00a4",
+         "type": "logo",
+         "logo": {
+          "link": "[[account.website]]",
+          "resizeWidth": 124
+         },
+         "styleProperties": {
+          "padding": "12px",
+          "alignment": "center"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "24px",
+    "paddingRight": "24px",
+    "paddingTop": "24px",
+    "paddingBottom": "24px"
+   }
+  },
+  {
+   "id": "64520e410b42aa7349bbfdec",
+   "visibility": {
+    "isMobileVisible": true,
+    "isDesktopVisible": true
+   },
+   "rows": [
+    {
+     "id": "64520e410b42aa7349bbfded",
+     "columns": [
+      {
+       "id": "64520e410b42aa7349bbfdee",
+       "width": "600px",
+       "blocks": [
+        {
+         "id": "6a212b4aa8b580d24e1ebfa3",
+         "type": "htmlCode",
+         "htmlCode": {
+          "style": "p { text-align: center; }",
+          "body": "\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"background-color:#ffffff;\">\n<tr><td align=\"center\" style=\"padding:0;\">\n<table role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" align=\"center\" style=\"width:100%;max-width:600px;margin:0 auto;background-color:#ffffff;font-family:&#39;Barlow&#39;,Arial,Helvetica,sans-serif;\">\n  <tr><td align=\"left\" style=\"padding:24px 36px 44px 24px;text-align:left;\">\n    <p style=\"margin:0 0 8px 0;color:#bfa61f;font-size:13px;font-weight:800;letter-spacing:0.16em;text-transform:uppercase;text-align:left;\"></p>\n    <h1 style=\"margin:0;color:#1a1a1a;font-size:30px;line-height:1.12;font-weight:800;letter-spacing:-0.02em;text-align:left;\">Tavo nuomonė svarbi</h1>\n    <p style=\"margin:16px 0 0 0;color:#4a4a4a;font-size:16px;line-height:1.65;font-weight:500;text-align:left;\">\n      Nuoširdžiai dėkoju, kad pasirinkai Insane Fits ir pasitikėjai mano komanda. Viliuosi, kad produktai tau patiko ir jau spėjai pajusti jų naudą.\n    </p>\n    <p style=\"margin:16px 0 0 0;color:#4a4a4a;font-size:16px;line-height:1.65;font-weight:500;text-align:left;\">\n      Jei gali, palik trumpą atsiliepimą - tai padeda kitiems lengviau apsispręsti ir man toliau tobulinti Insane Fits.\n    </p>\n    <p style=\"margin:24px 0 0 0;color:#1a1a1a;font-size:16px;font-weight:700;text-align:left;\">Pirmyn!</p>\n    <p style=\"margin:4px 0 0 0;color:#4a4a4a;font-size:15px;font-weight:600;text-align:left;\">Lukas</p>\n  </td></tr>\n</table>\n</td></tr>\n</table>"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "0px",
+    "paddingRight": "0px",
+    "paddingTop": "0px",
+    "paddingBottom": "12px",
+    "backgroundColor": "#FFFFFF",
+    "backgroundSize": "cover",
+    "backgroundRepeat": "no-repeat",
+    "backgroundPosition": "unset"
+   }
+  },
+  {
+   "id": "64520a367a635d5005b998a7",
+   "type": "dynamic_list",
+   "settings": {
+    "backgroundType": "",
+    "isColumnStackDisabled": true,
+    "dynamicList": {
+     "listPath": "event.raw.line_items",
+     "layout": "row",
+     "columnCount": 2,
+     "repetitionCount": 8
+    }
+   },
+   "visibility": {
+    "isMobileVisible": true,
+    "isDesktopVisible": true
+   },
+   "rows": [
+    {
+     "id": "645214a7d79bba530aab6a6e",
+     "columns": [
+      {
+       "id": "645214a7d79bba530aab6a6f",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99977",
+         "type": "image",
+         "image": {
+          "id": "",
+          "source": "[[item.product.product_image_urls]]",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "altText": "",
+          "isExternalSource": true,
+          "maxHeight": 276
+         },
+         "styleProperties": {
+          "padding": "12px"
+         }
+        }
+       ]
+      },
+      {
+       "id": "645214a7d79bba530aab6a70",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99979",
+         "type": "text",
+         "text": "<p style=\"margin-top: 0px; margin-bottom: 0px;\"><span><a href=\"[[item.product.product_url]]?postProductReview=true\" target=\"_blank\"><strong>[[item.name]]</strong></a></span></p>",
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "6px",
+          "paddingBottom": "6px",
+          "linkColor": "#383838"
+         },
+         "stylePresetID": "paragraph"
+        },
+        {
+         "id": "64521496d79bba530aab6a6d",
+         "type": "button",
+         "button": {
+          "text": "Palikti atsiliepimą",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "isFullWidth": false,
+          "translationKey": ""
+         },
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "12px",
+          "paddingBottom": "12px",
+          "alignment": "left"
+         },
+         "stylePresetID": "primary_button"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "645214a7d79bba530aab6a71",
+     "columns": [
+      {
+       "id": "645214a7d79bba530aab6a72",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99977",
+         "type": "image",
+         "image": {
+          "id": "",
+          "source": "[[item.product.product_image_urls]]",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "altText": "",
+          "isExternalSource": true,
+          "maxHeight": 276
+         },
+         "styleProperties": {
+          "padding": "12px"
+         }
+        }
+       ]
+      },
+      {
+       "id": "645214a7d79bba530aab6a73",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99979",
+         "type": "text",
+         "text": "<p style=\"margin-top: 0px; margin-bottom: 0px;\"><span><a href=\"[[item.product.product_url]]?postProductReview=true\" target=\"_blank\"><strong>[[item.name]]</strong></a></span></p>",
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "6px",
+          "paddingBottom": "6px",
+          "linkColor": "#383838"
+         },
+         "stylePresetID": "paragraph"
+        },
+        {
+         "id": "64521496d79bba530aab6a6d",
+         "type": "button",
+         "button": {
+          "text": "Palikti atsiliepimą",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "isFullWidth": false,
+          "translationKey": ""
+         },
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "12px",
+          "paddingBottom": "12px",
+          "alignment": "left"
+         },
+         "stylePresetID": "primary_button"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "645214a7d79bba530aab6a74",
+     "columns": [
+      {
+       "id": "645214a7d79bba530aab6a75",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99977",
+         "type": "image",
+         "image": {
+          "id": "",
+          "source": "[[item.product.product_image_urls]]",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "altText": "",
+          "isExternalSource": true,
+          "maxHeight": 276
+         },
+         "styleProperties": {
+          "padding": "12px"
+         }
+        }
+       ]
+      },
+      {
+       "id": "645214a7d79bba530aab6a76",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99979",
+         "type": "text",
+         "text": "<p style=\"margin-top: 0px; margin-bottom: 0px;\"><span><a href=\"[[item.product.product_url]]?postProductReview=true\" target=\"_blank\"><strong>[[item.name]]</strong></a></span></p>",
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "6px",
+          "paddingBottom": "6px",
+          "linkColor": "#383838"
+         },
+         "stylePresetID": "paragraph"
+        },
+        {
+         "id": "64521496d79bba530aab6a6d",
+         "type": "button",
+         "button": {
+          "text": "Palikti atsiliepimą",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "isFullWidth": false,
+          "translationKey": ""
+         },
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "12px",
+          "paddingBottom": "12px",
+          "alignment": "left"
+         },
+         "stylePresetID": "primary_button"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "645214a7d79bba530aab6a77",
+     "columns": [
+      {
+       "id": "645214a7d79bba530aab6a78",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99977",
+         "type": "image",
+         "image": {
+          "id": "",
+          "source": "[[item.product.product_image_urls]]",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "altText": "",
+          "isExternalSource": true,
+          "maxHeight": 276
+         },
+         "styleProperties": {
+          "padding": "12px"
+         }
+        }
+       ]
+      },
+      {
+       "id": "645214a7d79bba530aab6a79",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99979",
+         "type": "text",
+         "text": "<p style=\"margin-top: 0px; margin-bottom: 0px;\"><span><a href=\"[[item.product.product_url]]?postProductReview=true\" target=\"_blank\"><strong>[[item.name]]</strong></a></span></p>",
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "6px",
+          "paddingBottom": "6px",
+          "linkColor": "#383838"
+         },
+         "stylePresetID": "paragraph"
+        },
+        {
+         "id": "64521496d79bba530aab6a6d",
+         "type": "button",
+         "button": {
+          "text": "Palikti atsiliepimą",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "isFullWidth": false,
+          "translationKey": ""
+         },
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "12px",
+          "paddingBottom": "12px",
+          "alignment": "left"
+         },
+         "stylePresetID": "primary_button"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "645214a7d79bba530aab6a7a",
+     "columns": [
+      {
+       "id": "645214a7d79bba530aab6a7b",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99977",
+         "type": "image",
+         "image": {
+          "id": "",
+          "source": "[[item.product.product_image_urls]]",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "altText": "",
+          "isExternalSource": true,
+          "maxHeight": 276
+         },
+         "styleProperties": {
+          "padding": "12px"
+         }
+        }
+       ]
+      },
+      {
+       "id": "645214a7d79bba530aab6a7c",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99979",
+         "type": "text",
+         "text": "<p style=\"margin-top: 0px; margin-bottom: 0px;\"><span><a href=\"[[item.product.product_url]]?postProductReview=true\" target=\"_blank\"><strong>[[item.name]]</strong></a></span></p>",
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "6px",
+          "paddingBottom": "6px",
+          "linkColor": "#383838"
+         },
+         "stylePresetID": "paragraph"
+        },
+        {
+         "id": "64521496d79bba530aab6a6d",
+         "type": "button",
+         "button": {
+          "text": "Palikti atsiliepimą",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "isFullWidth": false,
+          "translationKey": ""
+         },
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "12px",
+          "paddingBottom": "12px",
+          "alignment": "left"
+         },
+         "stylePresetID": "primary_button"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "645214a7d79bba530aab6a7d",
+     "columns": [
+      {
+       "id": "645214a7d79bba530aab6a7e",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99977",
+         "type": "image",
+         "image": {
+          "id": "",
+          "source": "[[item.product.product_image_urls]]",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "altText": "",
+          "isExternalSource": true,
+          "maxHeight": 276
+         },
+         "styleProperties": {
+          "padding": "12px"
+         }
+        }
+       ]
+      },
+      {
+       "id": "645214a7d79bba530aab6a7f",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99979",
+         "type": "text",
+         "text": "<p style=\"margin-top: 0px; margin-bottom: 0px;\"><span><a href=\"[[item.product.product_url]]?postProductReview=true\" target=\"_blank\"><strong>[[item.name]]</strong></a></span></p>",
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "6px",
+          "paddingBottom": "6px",
+          "linkColor": "#383838"
+         },
+         "stylePresetID": "paragraph"
+        },
+        {
+         "id": "64521496d79bba530aab6a6d",
+         "type": "button",
+         "button": {
+          "text": "Palikti atsiliepimą",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "isFullWidth": false,
+          "translationKey": ""
+         },
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "12px",
+          "paddingBottom": "12px",
+          "alignment": "left"
+         },
+         "stylePresetID": "primary_button"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "645214a7d79bba530aab6a80",
+     "columns": [
+      {
+       "id": "645214a7d79bba530aab6a81",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99977",
+         "type": "image",
+         "image": {
+          "id": "",
+          "source": "[[item.product.product_image_urls]]",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "altText": "",
+          "isExternalSource": true,
+          "maxHeight": 276
+         },
+         "styleProperties": {
+          "padding": "12px"
+         }
+        }
+       ]
+      },
+      {
+       "id": "645214a7d79bba530aab6a82",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99979",
+         "type": "text",
+         "text": "<p style=\"margin-top: 0px; margin-bottom: 0px;\"><span><a href=\"[[item.product.product_url]]?postProductReview=true\" target=\"_blank\"><strong>[[item.name]]</strong></a></span></p>",
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "6px",
+          "paddingBottom": "6px",
+          "linkColor": "#383838"
+         },
+         "stylePresetID": "paragraph"
+        },
+        {
+         "id": "64521496d79bba530aab6a6d",
+         "type": "button",
+         "button": {
+          "text": "Palikti atsiliepimą",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "isFullWidth": false,
+          "translationKey": ""
+         },
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "12px",
+          "paddingBottom": "12px",
+          "alignment": "left"
+         },
+         "stylePresetID": "primary_button"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "645214a7d79bba530aab6a83",
+     "columns": [
+      {
+       "id": "645214a7d79bba530aab6a84",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99977",
+         "type": "image",
+         "image": {
+          "id": "",
+          "source": "[[item.product.product_image_urls]]",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "altText": "",
+          "isExternalSource": true,
+          "maxHeight": 276
+         },
+         "styleProperties": {
+          "padding": "12px"
+         }
+        }
+       ]
+      },
+      {
+       "id": "645214a7d79bba530aab6a85",
+       "width": "276px",
+       "blocks": [
+        {
+         "id": "64520a667a635d5005b99979",
+         "type": "text",
+         "text": "<p style=\"margin-top: 0px; margin-bottom: 0px;\"><span><a href=\"[[item.product.product_url]]?postProductReview=true\" target=\"_blank\"><strong>[[item.name]]</strong></a></span></p>",
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "6px",
+          "paddingBottom": "6px",
+          "linkColor": "#383838"
+         },
+         "stylePresetID": "paragraph"
+        },
+        {
+         "id": "64521496d79bba530aab6a6d",
+         "type": "button",
+         "button": {
+          "text": "Palikti atsiliepimą",
+          "link": "[[item.product.product_url]]?postProductReview=true",
+          "isFullWidth": false,
+          "translationKey": ""
+         },
+         "styleProperties": {
+          "paddingLeft": "12px",
+          "paddingRight": "12px",
+          "paddingTop": "12px",
+          "paddingBottom": "12px",
+          "alignment": "left"
+         },
+         "stylePresetID": "primary_button"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "24px",
+    "paddingRight": "24px",
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "verticalAlign": "middle",
+    "backgroundSize": "cover",
+    "backgroundRepeat": "no-repeat",
+    "backgroundPosition": "unset"
+   }
+  },
+  {
+   "id": "60a2848e82afed275df5da7d",
+   "visibility": {
+    "isMobileVisible": true,
+    "isDesktopVisible": true
+   },
+   "rows": [
+    {
+     "id": "60adf7a3af90f419e5127b25",
+     "columns": [
+      {
+       "id": "60adf7a3af90f419e5127b26",
+       "width": "552px",
+       "blocks": [
+        {
+         "id": "60fe70a85f1f48039ea14053",
+         "type": "text",
+         "text": "<p id=\"isPasted\" style=\"text-align: left; margin: 0px;\">© [[account.name]]</p><p style=\"text-align: left; margin: 0px;\"><br></p><p style=\"text-align: left; margin: 0px;\">[[account.address]], [[account.city]], [[account.country]], [[account.zipCode]]</p><p style=\"text-align: left; margin: 0px;\"><br></p><p style=\"text-align: left; margin: 0px;\">Šis laiškas buvo išsiųstas [[contact.email]], kadangi užsisakėte naujienas mūsų svetainėje arba esate mūsų klientas.</p><p style=\"text-align: left; margin: 0px;\"><br></p><p style=\"text-align: left; margin: 0px;\"><a href=\"[[preference_link]]\" target=\"_blank\" data-translation-key=\"preference\">Redaguoti nuostatas</a> | <a href=\"[[unsubscribe_link]]\" target=\"_blank\" data-translation-key=\"unsubscribe\">Atsisakyti prenumeratos</a></p>",
+         "styleProperties": {
+          "padding": "12px",
+          "color": "#797979",
+          "linkColor": "#fbcd0a"
+         },
+         "stylePresetID": "footnote"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "padding": "24px",
+    "paddingLeft": "24px",
+    "paddingRight": "24px",
+    "paddingTop": "24px",
+    "paddingBottom": "24px",
+    "backgroundColor": "#fafafa",
+    "backgroundSize": "cover",
+    "backgroundRepeat": "no-repeat",
+    "backgroundPosition": "unset"
+   }
+  }
+ ],
+ "createdAt": "2026-06-04T07:36:12.731Z",
+ "updatedAt": "2026-06-10T19:35:46.114Z"
+}
