@@ -1,0 +1,110 @@
+{
+ "id": "6984609f267940f8296e350a",
+ "brandID": "5fb8f11d99f0b7071afb51ba",
+ "name": "Nauja receptų knyga: Insanefits welcome email",
+ "isEnabled": false,
+ "trigger": {
+  "condition": {
+   "event": "subscribed to marketing",
+   "origin": "",
+   "filterGroups": [
+    {
+     "logicalOperator": "and",
+     "filters": [
+      {
+       "field": "channel_subscribed_to",
+       "operator": "eq",
+       "value": "Email"
+      },
+      {
+       "field": "first_subscription",
+       "operator": "eq",
+       "value": true
+      },
+      {
+       "field": "subscription_method",
+       "operator": "eq",
+       "value": "Signup form"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blocks": [
+  {
+   "id": "6984609f267940f8296e350c",
+   "type": "delay",
+   "delay": {
+    "mode": "immediate"
+   }
+  },
+  {
+   "id": "6984609f267940f8296e350d",
+   "type": "abTesting",
+   "abTesting": {
+    "aBlocks": [
+     {
+      "id": "6984609f267940f8296e3510",
+      "type": "action",
+      "action": {
+       "type": "sendEmail",
+       "sendEmail": {
+        "contentID": "6984609f9686d50e3b054ad0",
+        "subject": "Nuolaidos kodas",
+        "preheader": "Sveikinu prisijungus!",
+        "senderEmail": "hello@insanefits.com",
+        "senderName": "Lukas | Insanefits",
+        "language": "lt_LT",
+        "isSkipAllowed": true
+       }
+      }
+     }
+    ],
+    "bBlocks": [
+     {
+      "id": "6984609f267940f8296e3511",
+      "type": "action",
+      "action": {
+       "type": "sendEmail",
+       "sendEmail": {
+        "contentID": "6984609ff2373fe341780e89",
+        "subject": "Nuolaidos kodas",
+        "preheader": "Sveikinu prisijungus!",
+        "senderEmail": "hello@insanefits.com",
+        "senderName": "Lukas | Insanefits",
+        "language": "lt_LT",
+        "isSkipAllowed": true
+       }
+      }
+     }
+    ],
+    "aBlocksPercentage": 0
+   }
+  }
+ ],
+ "exitConditions": [
+  {
+   "event": "placed order",
+   "origin": "shopify"
+  }
+ ],
+ "settings": {
+  "frequencyLimiter": {
+   "mode": "interval",
+   "duration": {
+    "units": "d",
+    "amount": 3
+   }
+  },
+  "sendingThresholds": {
+   "email": "subscribed",
+   "sms": "subscribed"
+  }
+ },
+ "createdAt": "2026-02-05T09:19:27.922Z",
+ "updatedAt": "2026-06-23T16:02:09.272Z",
+ "enabledAt": "2026-02-05T09:32:36.024Z",
+ "disabledAt": "2026-06-11T09:20:51.792Z",
+ "url": "https://app.omnisend.com/automation/edit/6984609f267940f8296e350a"
+}

@@ -1,0 +1,169 @@
+{
+ "exportedAt": "2026-10-07T07:48:10Z",
+ "brand": "insanefits",
+ "note": "visos paskyroje likusios (isjungtos) automatizacijos",
+ "automations": [
+  {
+   "id": "6aa7ce77cb1ca6f74dc33804",
+   "name": "Copy of: Product Abandonment Engagement Split",
+   "isEnabled": false,
+   "createdAt": "2026-09-14T10:37:43.788Z",
+   "trigger": "viewed product",
+   "emails": [
+    {
+     "contentID": "6aa7ce79b5a71322938f13d4",
+     "subject": "Palikai papildą nepatikrintą 💪",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7ce7959b97444748357c6",
+     "subject": "Palikai papildą nepatikrintą 💪",
+     "htmlBlocks": 0
+    }
+   ]
+  },
+  {
+   "id": "6aa7cdf9cb1ca6f74dc337ee",
+   "name": "Copy of: Abandoned Cart Trigger",
+   "isEnabled": false,
+   "createdAt": "2026-09-14T10:35:37.883Z",
+   "trigger": "added product to cart",
+   "emails": [
+    {
+     "contentID": "6aa7ce504b3b27d0e7a80a1e",
+     "subject": "Užbaikite apsipirkimą 💪",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7ce5059b974447483579a",
+     "subject": "Papildai liko krepšelyje! ⏰",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7ce50b5a71322938f13b6",
+     "subject": "Tavo 11% nuolaidos kodas",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7ce5024cb7458a8429edb",
+     "subject": "Užbaikite apsipirkimą 💪",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7ce5059b974447483579b",
+     "subject": "Papildai liko krepšelyje! ⏰",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6aa7ce50b5a71322938f13b8",
+     "subject": "Tavo 11% nuolaidos kodas",
+     "htmlBlocks": 0
+    }
+   ]
+  },
+  {
+   "id": "69cb6155bbe4f8862a75602a",
+   "name": "Nauja kolekcija email",
+   "isEnabled": false,
+   "createdAt": "2026-03-31T05:53:25.293Z",
+   "trigger": "subscribed to marketing",
+   "emails": [
+    {
+     "contentID": "69cb62bad807c35fda8cbe28",
+     "subject": "Nauja kolekcija - netrukus!",
+     "htmlBlocks": 0
+    }
+   ]
+  },
+  {
+   "id": "6984609f267940f8296e350a",
+   "name": "Nauja receptų knyga: Insanefits welcome email",
+   "isEnabled": false,
+   "createdAt": "2026-02-05T09:19:27.922Z",
+   "trigger": "subscribed to marketing",
+   "emails": [
+    {
+     "contentID": "6984609f9686d50e3b054ad0",
+     "subject": "Nuolaidos kodas",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "6984609ff2373fe341780e89",
+     "subject": "Nuolaidos kodas",
+     "htmlBlocks": 0
+    }
+   ]
+  },
+  {
+   "id": "67434226557cf460e5e3dfd3",
+   "name": "Custom Workflow No.4",
+   "isEnabled": false,
+   "createdAt": "2024-11-24T15:11:34.224Z",
+   "trigger": "subscribed to marketing",
+   "emails": [
+    {
+     "contentID": "674342676236b76207171805",
+     "subject": "Nuolaidos",
+     "htmlBlocks": 0
+    }
+   ]
+  },
+  {
+   "id": "64e86ff193117e07233c2c0c",
+   "name": "Abandoned Cart - Cart Trigger",
+   "isEnabled": false,
+   "createdAt": "2023-08-25T09:10:09.872Z",
+   "trigger": "added product to cart",
+   "emails": [
+    {
+     "contentID": "64e86ff17864f3a103075438",
+     "subject": "Pabaikite pirkimą",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "64e86ff17864f3a10307543a",
+     "subject": "Prekių krepšelis dar aktyvus",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "64e86ff1746f5c8cdf622d65",
+     "subject": "Tavo 10% nuolaidos kodas",
+     "htmlBlocks": 0
+    }
+   ]
+  },
+  {
+   "id": "62f3cbf24a19c7001ac82d63",
+   "name": "Custom Workflow",
+   "isEnabled": false,
+   "createdAt": "2022-08-10T15:17:06.605Z",
+   "trigger": "placed order",
+   "emails": [
+    {
+     "contentID": "63d8b9ea76382d8dcef3a6b6",
+     "subject": "Knyga dovanų",
+     "htmlBlocks": 0
+    }
+   ]
+  },
+  {
+   "id": "5fb8f65eb1b5333ba4023551",
+   "name": "Insanefits welcome email",
+   "isEnabled": false,
+   "createdAt": "2020-11-21T11:13:34.904Z",
+   "trigger": "subscribed to marketing",
+   "emails": [
+    {
+     "contentID": "655c901a10e776be29492a18",
+     "subject": "Nuolaidos kodas",
+     "htmlBlocks": 0
+    },
+    {
+     "contentID": "66d57661a1c34cc1e20737e4",
+     "subject": "Nuolaidos kodas",
+     "htmlBlocks": 0
+    }
+   ]
+  }
+ ]
+}

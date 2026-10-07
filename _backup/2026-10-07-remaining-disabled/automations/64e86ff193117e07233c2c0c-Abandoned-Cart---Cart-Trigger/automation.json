@@ -1,0 +1,118 @@
+{
+ "id": "64e86ff193117e07233c2c0c",
+ "brandID": "5fb8f11d99f0b7071afb51ba",
+ "name": "Abandoned Cart - Cart Trigger",
+ "isEnabled": false,
+ "trigger": {
+  "condition": {
+   "event": "added product to cart",
+   "origin": "shopify"
+  },
+  "inactivitySettings": {
+   "duration": {
+    "units": "h",
+    "amount": 1
+   }
+  }
+ },
+ "blocks": [
+  {
+   "id": "64e86ff193117e07233c2c14",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "64e86ff17864f3a103075438",
+     "subject": "Pabaikite pirkimą",
+     "preheader": "Jūsų prekių krepšelyje liko prekių",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Insanefits",
+     "language": "en_US",
+     "isSkipAllowed": true
+    }
+   }
+  },
+  {
+   "id": "64e86ff193117e07233c2c10",
+   "type": "delay",
+   "delay": {
+    "mode": "duration",
+    "duration": {
+     "units": "h",
+     "amount": 11
+    }
+   }
+  },
+  {
+   "id": "64e86ff193117e07233c2c15",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "64e86ff17864f3a10307543a",
+     "subject": "Prekių krepšelis dar aktyvus",
+     "preheader": "Insanefits laukia jūsų...",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Insanefits",
+     "language": "en_US",
+     "isSkipAllowed": true
+    }
+   }
+  },
+  {
+   "id": "64e86ff193117e07233c2c12",
+   "type": "delay",
+   "delay": {
+    "mode": "duration",
+    "duration": {
+     "units": "h",
+     "amount": 12
+    }
+   }
+  },
+  {
+   "id": "64e86ff193117e07233c2c1d",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "64e86ff1746f5c8cdf622d65",
+     "subject": "Tavo 10% nuolaidos kodas",
+     "preheader": "Pabaikite pirkimą ir mokėkite mažiau",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Insanefits",
+     "language": "en_US",
+     "isSkipAllowed": true
+    }
+   }
+  }
+ ],
+ "exitConditions": [
+  {
+   "event": "placed order",
+   "origin": "shopify"
+  },
+  {
+   "event": "started checkout",
+   "origin": "shopify"
+  }
+ ],
+ "settings": {
+  "frequencyLimiter": {
+   "mode": "interval",
+   "duration": {
+    "units": "d",
+    "amount": 1
+   }
+  },
+  "sendingThresholds": {
+   "email": "nonSubscribed",
+   "sms": "subscribed"
+  }
+ },
+ "createdAt": "2023-08-25T09:10:09.872Z",
+ "updatedAt": "2026-06-04T08:31:41.905Z",
+ "enabledAt": "2023-08-25T09:10:10.319Z",
+ "disabledAt": "2026-06-04T08:31:41.905Z",
+ "url": "https://app.omnisend.com/automation/edit/64e86ff193117e07233c2c0c"
+}

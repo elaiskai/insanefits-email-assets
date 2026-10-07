@@ -1,0 +1,59 @@
+{
+ "id": "62f3cbf24a19c7001ac82d63",
+ "brandID": "5fb8f11d99f0b7071afb51ba",
+ "name": "Custom Workflow",
+ "isEnabled": false,
+ "trigger": {
+  "condition": {
+   "event": "placed order",
+   "origin": "shopify",
+   "filterGroups": [
+    {
+     "logicalOperator": "and",
+     "filters": [
+      {
+       "field": "raw.line_items.product_id",
+       "operator": "eq",
+       "value": 7445645590694
+      },
+      {
+       "field": "raw._total_price",
+       "operator": "gt",
+       "value": 54
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blocks": [
+  {
+   "id": "51mkUlq1",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "63d8b9ea76382d8dcef3a6b6",
+     "subject": "Knyga dovanų",
+     "preheader": "Knygos atsisiuntimo nuoroda",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Insanefits",
+     "language": "en_US",
+     "isSkipAllowed": true
+    }
+   }
+  }
+ ],
+ "exitConditions": [],
+ "settings": {
+  "sendingThresholds": {
+   "email": "nonSubscribed",
+   "sms": "subscribed"
+  }
+ },
+ "createdAt": "2022-08-10T15:17:06.605Z",
+ "updatedAt": "2023-11-13T10:15:40.404Z",
+ "enabledAt": "2022-08-10T15:31:05.329Z",
+ "disabledAt": "2023-11-13T10:15:40.404Z",
+ "url": "https://app.omnisend.com/automation/edit/62f3cbf24a19c7001ac82d63"
+}

@@ -1,0 +1,292 @@
+{
+ "id": "63d8b9ea76382d8dcef3a6b6",
+ "generalSettings": {
+  "content": {
+   "backgroundColor": "#ffffff",
+   "width": "640px",
+   "fontFamily": "Arial, sans-serif",
+   "fontSize": "14px",
+   "color": "#212121"
+  },
+  "logo": {
+   "id": "insertLogo.jpg",
+   "source": "/image/newsletter/insertLogo.jpg",
+   "width": 1200,
+   "height": 536
+  },
+  "body": {
+   "backgroundColor": "#f2f2f2"
+  },
+  "buttonPresets": [
+   {
+    "id": "primary_button",
+    "name": "Primary button",
+    "styles": {
+     "backgroundColor": "#00A3FF",
+     "borderRadius": "28px",
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "16px",
+     "color": "#FFFFFF",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   },
+   {
+    "id": "secondary_button",
+    "name": "Secondary button",
+    "styles": {
+     "backgroundColor": "#FFFFFF",
+     "border": "2px solid #000000",
+     "borderRadius": "28px",
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "16px",
+     "color": "#000000",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   },
+   {
+    "id": "tertiary_button",
+    "name": "Tertiary button",
+    "styles": {
+     "backgroundColor": "#000000",
+     "border": "2px solid #FFFFFF",
+     "borderRadius": "28px",
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "16px",
+     "color": "#FFFFFF",
+     "paddingLeft": "16px",
+     "paddingRight": "16px",
+     "paddingTop": "16px",
+     "paddingBottom": "16px"
+    }
+   }
+  ],
+  "textPresets": [
+   {
+    "id": "heading_large",
+    "name": "Heading Large",
+    "styles": {
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "36px",
+     "color": "#000000",
+     "lineHeight": "1.25"
+    }
+   },
+   {
+    "id": "heading_medium",
+    "name": "Heading Medium",
+    "styles": {
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "30px",
+     "color": "#000000",
+     "lineHeight": "1.25"
+    }
+   },
+   {
+    "id": "heading_small",
+    "name": "Heading Small",
+    "styles": {
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "14px",
+     "color": "#999999",
+     "lineHeight": "1.15"
+    }
+   },
+   {
+    "id": "paragraph",
+    "name": "Paragraph",
+    "styles": {
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "14px",
+     "color": "#000000",
+     "lineHeight": "1.5"
+    }
+   },
+   {
+    "id": "footnote",
+    "name": "Footnote",
+    "styles": {
+     "fontFamily": "Arial, sans-serif",
+     "fontSize": "12px",
+     "color": "#000000",
+     "lineHeight": "1.5"
+    }
+   }
+  ]
+ },
+ "sections": [
+  {
+   "id": "63d8b9ea76382d8dcef3a6a6",
+   "visibility": {
+    "isMobileVisible": true,
+    "isDesktopVisible": true
+   },
+   "rows": [
+    {
+     "id": "63d8b9ea76382d8dcef3a6a7",
+     "columns": [
+      {
+       "id": "63d8b9ea76382d8dcef3a6a5",
+       "width": "600px",
+       "blocks": [
+        {
+         "id": "63d8b9ea76382d8dcef3a6a8",
+         "type": "text",
+         "text": "<p style=\"text-align: center; margin: 0px;\" ><strong>Labas!</strong></p><p style=\"text-align: center; margin: 0px;\" ><br></p><p style=\"text-align: center; margin: 0px;\" >Kaip ir žadėjau, siunčiu tau el. knygą \"Kaip numesti riebalus ir priaugti raumeninės masės\".</p><p style=\"text-align: center; margin: 0px;\" >Rašydamas šią knygą sudėjau daug energijos ir pastangų, todėl tikiuosi, kad tau ji patiks.</p><p style=\"text-align: center; margin: 0px;\" ><br></p><p style=\"text-align: center; margin: 0px;\" ><a href=\"https://drive.google.com/file/d/1X5iuwJ39k2mnLwTEYBYcbN1Ux_Oenbsq/view\" rel=\"noopener noreferrer\" style=\"color:#999999;font-size:14px;line-height:117%;font-family: Arial, sans-serif;font-weight:normal;text-decoration:underline;\" target=\"_blank\"><strong>Knygos atsisiuntimo nuoroda</strong></a></p><p style=\"text-align: center; margin: 0px;\" ><br></p>",
+         "styleProperties": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "color": "#999999",
+          "linkColor": "#999999"
+         },
+         "stylePresetID": "heading_small"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "20px",
+    "paddingRight": "20px",
+    "paddingTop": "20px",
+    "paddingBottom": "20px",
+    "verticalAlign": "top"
+   }
+  },
+  {
+   "id": "63d8b9ea76382d8dcef3a6af",
+   "rows": [
+    {
+     "id": "63d8b9ea76382d8dcef3a6b0",
+     "columns": [
+      {
+       "id": "63d8b9ea76382d8dcef3a6ae",
+       "width": "592px",
+       "blocks": [
+        {
+         "id": "63d8b9ea76382d8dcef3a6b1",
+         "type": "lineSpace",
+         "lineSpace": {
+          "type": "line",
+          "width": 100,
+          "height": 12
+         },
+         "styleProperties": {
+          "padding": "0px 12px",
+          "backgroundColor": "transparent",
+          "border": "1px solid #666666",
+          "alignment": "center"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "24px",
+    "paddingRight": "24px",
+    "paddingTop": "0px",
+    "paddingBottom": "0px",
+    "verticalAlign": "middle"
+   }
+  },
+  {
+   "id": "63d8b9ea76382d8dcef3a6aa",
+   "rows": [
+    {
+     "id": "63d8b9ea76382d8dcef3a6ab",
+     "columns": [
+      {
+       "id": "63d8b9ea76382d8dcef3a6a9",
+       "width": "600px",
+       "blocks": [
+        {
+         "id": "63d8b9ea76382d8dcef3a6ac",
+         "type": "text",
+         "text": "<p style=\"text-align: center; margin: 0;\">[[account.name]]</p><p style=\"text-align: center; margin: 0;\">[[account.address]]</p><p style=\"text-align: center; margin: 0;\">&nbsp;</p><p style=\"text-align: center; margin: 0;\"><a href=\"mailto:hello@insanefits.com\" style=\"color: #333333; font-size: 14px; line-height: 16px; font-family: Arial, sans-serif; font-weight: normal; text-decoration: underline;\">hello@insanefits.com</a></p><p style=\"text-align: center; margin:0;\"><a href=\"[[account.website]]\" style=\"color:#333333;font-size:14px;line-height:16px;font-family: Arial, sans-serif;font-weight:normal;text-decoration:underline;\" target=\"_blank\">[[account.website]]</a></p>",
+         "styleProperties": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "linkColor": "#999999"
+         },
+         "stylePresetID": "heading_small"
+        },
+        {
+         "id": "63d8b9ea76382d8dcef3a6ad",
+         "type": "text",
+         "text": "<p data-translation-key=\"permission_reminder\" style=\"text-align: center; margin: 0px;\" >This email was sent to [[contact.email]] because you've subscribed on our site or made a purchase. </p><p style=\"text-align: center; margin: 0px;\" ><a href=\"[[unsubscribe_link]]\" rel=\"noopener noreferrer\" target=\"_blank\" data-translation-key=\"unsubscribe\">Unsubscribe</a> | <a href=\"[[preference_link]]\" rel=\"noopener noreferrer\" target=\"_blank\" data-translation-key=\"preference\">Edit preferences</a></p>",
+         "styleProperties": {
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
+          "paddingBottom": "0px",
+          "linkColor": "#999999"
+         },
+         "stylePresetID": "heading_small"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "20px",
+    "paddingRight": "20px",
+    "paddingTop": "35px",
+    "paddingBottom": "35px",
+    "verticalAlign": "top"
+   }
+  },
+  {
+   "id": "63d8b9ea76382d8dcef3a6b3",
+   "rows": [
+    {
+     "id": "63d8b9ea76382d8dcef3a6b4",
+     "columns": [
+      {
+       "id": "63d8b9ea76382d8dcef3a6b2",
+       "width": "592px",
+       "blocks": [
+        {
+         "id": "63d8b9ea76382d8dcef3a6b5",
+         "type": "lineSpace",
+         "lineSpace": {
+          "type": "line",
+          "width": 100,
+          "height": 12
+         },
+         "styleProperties": {
+          "padding": "0px 12px",
+          "backgroundColor": "transparent",
+          "border": "1px none #666666",
+          "alignment": "center"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "styleProperties": {
+    "paddingLeft": "24px",
+    "paddingRight": "24px",
+    "paddingTop": "0px",
+    "paddingBottom": "0px",
+    "verticalAlign": "middle"
+   }
+  }
+ ],
+ "createdAt": "0001-01-01T00:00:00Z",
+ "updatedAt": "0001-01-01T00:00:00Z"
+}

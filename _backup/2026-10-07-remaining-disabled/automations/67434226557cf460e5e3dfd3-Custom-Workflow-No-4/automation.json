@@ -1,0 +1,71 @@
+{
+ "id": "67434226557cf460e5e3dfd3",
+ "brandID": "5fb8f11d99f0b7071afb51ba",
+ "name": "Custom Workflow No.4",
+ "isEnabled": false,
+ "trigger": {
+  "condition": {
+   "event": "subscribed to marketing",
+   "origin": "",
+   "filterGroups": [
+    {
+     "logicalOperator": "and",
+     "filters": [
+      {
+       "field": "form.id",
+       "operator": "eq",
+       "value": "674340dbdcdc64b34f2f4636"
+      }
+     ]
+    }
+   ]
+  },
+  "audienceFilterGroup": {
+   "logicalOperator": "and",
+   "filters": [
+    {
+     "field": "tag",
+     "operator": "eq",
+     "value": "blackfriday"
+    }
+   ]
+  }
+ },
+ "blocks": [
+  {
+   "id": "asPqIg4g",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "674342676236b76207171805",
+     "subject": "Nuolaidos",
+     "preheader": "Black Friday",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Insanefits",
+     "language": "lt_LT",
+     "isSkipAllowed": true
+    }
+   }
+  }
+ ],
+ "exitConditions": [],
+ "settings": {
+  "frequencyLimiter": {
+   "mode": "interval",
+   "duration": {
+    "units": "d",
+    "amount": 1
+   }
+  },
+  "sendingThresholds": {
+   "email": "nonSubscribed",
+   "sms": "subscribed"
+  }
+ },
+ "createdAt": "2024-11-24T15:11:34.224Z",
+ "updatedAt": "2026-06-03T20:33:23.994Z",
+ "enabledAt": "2024-11-24T15:14:25.156Z",
+ "disabledAt": "2026-06-03T07:13:08.026Z",
+ "url": "https://app.omnisend.com/automation/edit/67434226557cf460e5e3dfd3"
+}

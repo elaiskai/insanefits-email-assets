@@ -1,0 +1,106 @@
+{
+ "id": "5fb8f65eb1b5333ba4023551",
+ "brandID": "5fb8f11d99f0b7071afb51ba",
+ "name": "Insanefits welcome email",
+ "isEnabled": false,
+ "trigger": {
+  "condition": {
+   "event": "subscribed to marketing",
+   "origin": "",
+   "filterGroups": [
+    {
+     "logicalOperator": "and",
+     "filters": [
+      {
+       "field": "channel_subscribed_to",
+       "operator": "eq",
+       "value": "Email"
+      },
+      {
+       "field": "first_subscription",
+       "operator": "eq",
+       "value": true
+      },
+      {
+       "field": "subscription_method",
+       "operator": "eq",
+       "value": "Signup form"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blocks": [
+  {
+   "id": "59841a953e40551380000002",
+   "type": "delay",
+   "delay": {
+    "mode": "immediate"
+   }
+  },
+  {
+   "id": "1NvcEuWk",
+   "type": "abTesting",
+   "abTesting": {
+    "aBlocks": [
+     {
+      "id": "vJLytNkd",
+      "type": "action",
+      "action": {
+       "type": "sendEmail",
+       "sendEmail": {
+        "contentID": "655c901a10e776be29492a18",
+        "subject": "Nuolaidos kodas",
+        "preheader": "Sveikinu prisijungus!",
+        "senderEmail": "hello@insanefits.com",
+        "senderName": "Lukas",
+        "language": "lt_LT",
+        "isSkipAllowed": true
+       }
+      }
+     }
+    ],
+    "bBlocks": [
+     {
+      "id": "ft5vaWV4",
+      "type": "action",
+      "action": {
+       "type": "sendEmail",
+       "sendEmail": {
+        "contentID": "66d57661a1c34cc1e20737e4",
+        "subject": "Nuolaidos kodas",
+        "preheader": "Sveikinu prisijungus!",
+        "senderEmail": "hello@insanefits.com",
+        "senderName": "Lukas",
+        "language": "lt_LT",
+        "isSkipAllowed": true
+       }
+      }
+     }
+    ],
+    "aBlocksPercentage": 0
+   }
+  }
+ ],
+ "exitConditions": [
+  {
+   "event": "placed order",
+   "origin": "shopify"
+  }
+ ],
+ "settings": {
+  "frequencyLimiter": {
+   "mode": "once"
+  },
+  "sendingThresholds": {
+   "email": "subscribed",
+   "sms": "subscribed"
+  }
+ },
+ "createdAt": "2020-11-21T11:13:34.904Z",
+ "updatedAt": "2026-02-05T09:32:27.52Z",
+ "enabledAt": "2023-11-21T11:16:15.37Z",
+ "disabledAt": "2026-02-05T09:32:27.52Z",
+ "url": "https://app.omnisend.com/automation/edit/5fb8f65eb1b5333ba4023551"
+}

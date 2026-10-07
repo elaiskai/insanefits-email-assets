@@ -1,0 +1,72 @@
+{
+ "id": "69cb6155bbe4f8862a75602a",
+ "brandID": "5fb8f11d99f0b7071afb51ba",
+ "name": "Nauja kolekcija email",
+ "isEnabled": false,
+ "trigger": {
+  "condition": {
+   "event": "subscribed to marketing",
+   "origin": "",
+   "filterGroups": [
+    {
+     "logicalOperator": "and",
+     "filters": [
+      {
+       "field": "channel_subscribed_to",
+       "operator": "eq",
+       "value": "Email"
+      },
+      {
+       "field": "first_subscription",
+       "operator": "eq",
+       "value": true
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "blocks": [
+  {
+   "id": "69cb6155bbe4f8862a75602c",
+   "type": "delay",
+   "delay": {
+    "mode": "immediate"
+   }
+  },
+  {
+   "id": "z26bK4dN",
+   "type": "action",
+   "action": {
+    "type": "sendEmail",
+    "sendEmail": {
+     "contentID": "69cb62bad807c35fda8cbe28",
+     "subject": "Nauja kolekcija - netrukus!",
+     "preheader": "Tu jau sąraše🔥",
+     "senderEmail": "hello@insanefits.com",
+     "senderName": "Lukas | Insanefits",
+     "language": "lt_LT",
+     "isSkipAllowed": true
+    }
+   }
+  }
+ ],
+ "exitConditions": [
+  {
+   "event": "placed order",
+   "origin": "shopify"
+  }
+ ],
+ "settings": {
+  "frequencyLimiter": {
+   "mode": "once"
+  },
+  "sendingThresholds": {
+   "email": "subscribed",
+   "sms": "subscribed"
+  }
+ },
+ "createdAt": "2026-03-31T05:53:25.293Z",
+ "updatedAt": "2026-03-31T07:50:48.26Z",
+ "url": "https://app.omnisend.com/automation/edit/69cb6155bbe4f8862a75602a"
+}
